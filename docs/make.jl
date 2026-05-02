@@ -6,11 +6,13 @@ makedocs(;
     modules = [Outbreaks],
     authors = "Simon Frost and contributors",
     remotes = nothing,
+    warnonly = [:cross_references],
     format = Documenter.HTML(;
         prettyurls = get(ENV, "CI", nothing) == "true",
     ),
     pages = [
         "Home" => "index.md",
+        "Vignettes" => "vignettes.md",
         "Dataset Reference" => [
             "All Datasets" => "datasets.md",
             "Line Lists" => "linelists.md",
