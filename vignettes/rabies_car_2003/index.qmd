@@ -1,0 +1,42 @@
+---
+title: "Dog Rabies, Central African Republic, 2003–2012"
+---
+
+## Overview
+
+This dataset documents dog rabies cases in the Central African Republic from 2003 to 2012. It includes a linelist of confirmed cases with geographic coordinates, and associated DNA sequence data for phylogenetic analysis of rabies virus strains.
+
+## Source
+
+Institut Pasteur de Bangui; WHO Collaborating Centre for Rabies.
+
+## Data
+
+The dataset is returned as a `NamedTuple` with two components:
+
+- **linelist**: index, date, latitude, longitude, has_dna
+- **dna**: DNA sequences as a DataFrame
+
+```{julia}
+using Outbreaks
+using DataFrames
+data = Outbreaks.rabies_car_2003()
+linelist = data.linelist
+dna = data.dna
+```
+
+### Linelist
+
+```{julia}
+first(linelist, 6)
+```
+
+```{julia}
+describe(linelist)
+```
+
+### DNA sequences
+
+```{julia}
+first(dna, 6)
+```

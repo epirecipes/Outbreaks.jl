@@ -1,0 +1,31 @@
+---
+title: "Zika, Yap Main Islands, Micronesia, 2007"
+---
+
+## Overview
+
+This dataset documents the 2007 Zika virus outbreak on the Yap Main Islands, Federated States of Micronesia. A total of 108 cases (59 probable and 49 confirmed) were recorded in a population of 7,391. The dataset contains 29 rows and 3 columns: onset date, case number, and value (weekly case counts).
+
+## Source
+
+Funk, S. et al. (2016). Comparative analysis of dengue and Zika outbreaks reveals differences by setting and virus. *PLOS Neglected Tropical Diseases*, 10(12):e0005173.
+
+## Loading the data
+
+```{julia}
+using Outbreaks
+using DataFrames
+df = Outbreaks.zika_yap_2007()
+```
+
+## First few rows
+
+```{julia}
+first(df, 6)
+```
+
+## Summary statistics
+
+```{julia}
+describe(df)
+```

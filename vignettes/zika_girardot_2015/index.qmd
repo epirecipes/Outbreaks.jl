@@ -1,0 +1,31 @@
+---
+title: "Zika, Girardot, Colombia, 2015"
+---
+
+## Overview
+
+This dataset contains daily incidence data from the 2015 Zika virus disease outbreak in Girardot, Colombia. A total of 1,936 cases were reported in a population of 102,225. The dataset has 93 rows and 2 columns: date and daily case count.
+
+## Source
+
+Rojas, D. P. et al. (2016). The epidemiology and transmissibility of Zika virus in Girardot and San Andres Island, Colombia, September 2015 to January 2016. *Eurosurveillance*, 21(28):30283. Licensed under CC BY 4.0.
+
+## Loading the data
+
+```{julia}
+using Outbreaks
+using DataFrames
+df = Outbreaks.zika_girardot_2015()
+```
+
+## First few rows
+
+```{julia}
+first(df, 6)
+```
+
+## Summary statistics
+
+```{julia}
+describe(df)
+```

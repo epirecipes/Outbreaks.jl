@@ -1,0 +1,50 @@
+---
+title: "Ebola, Sierra Leone, 2014"
+---
+
+## Overview
+
+This dataset contains individual-level line list data from the 2014 Ebola outbreak in Sierra Leone. With 11,903 records, it includes patient demographics (age, sex), clinical status, dates of onset and sample collection, and geographic information (district and chiefdom). This is one of the largest publicly available Ebola line lists.
+
+**Source:** Fang LQ, Yang Y, Jiang JF, Yao HW, Kargbo D, Li XL, et al. (2016). Transmission dynamics of Ebola virus disease and intervention effectiveness in Sierra Leone. *Proceedings of the National Academy of Sciences* 113(16):4488–4493.
+
+## Loading the data
+
+```{julia}
+using DataFrames
+using Outbreaks
+df = Outbreaks.ebola_sierraleone_2014()
+size(df)
+```
+
+## First few rows
+
+```{julia}
+first(df, 6)
+```
+
+## Summary statistics
+
+```{julia}
+describe(df)
+```
+
+## Cases by district
+
+```{julia}
+using StatsBase
+district_counts = sort(combine(groupby(df, :district), nrow => :cases), :cases, rev=true)
+for row in eachrow(district_counts)
+    bar = repeat("█", max(1, round(Int, row.cases / 50)))
+    println(rpad(coalesce(string(row.district), "missing"), 20), " | $bar $(row.cases)")
+end
+```
+
+## Epidemic curve (weekly)
+
+```{julia}
+onset = dropmissing(df, :date_of_onset)
+sort!(onset, :date_of_onset)
+println("Onset range: $(minimum(onset.date_of_onset)) to $(maximum(onset.date_of_onset))")
+println("Cases with onset date: $(nrow(onset)) / $(nrow(df))")
+```

@@ -1,0 +1,54 @@
+---
+title: "Influenza A H7N9, China, 2013"
+---
+
+## Overview
+
+This dataset contains individual-level data on 136 confirmed human cases of avian influenza A (H7N9) in China, 2013. It includes dates of onset, hospitalisation, and outcome, along with patient demographics (age, gender) and province. The H7N9 subtype emerged in early 2013 with zoonotic spillover from poultry, causing severe respiratory illness with a high case fatality rate.
+
+**Source:** Kucharski AJ, Mills HL, Donnelly CA, Riley S (2014). Transmission potential of healthcare-acquired infections in acute care settings. *PLOS Currents Outbreaks*. Data archived at Dryad: doi:10.5061/dryad.2g43n.
+
+## Loading the data
+
+```{julia}
+using DataFrames
+using Outbreaks
+df = Outbreaks.fluH7N9_china_2013()
+size(df)
+```
+
+## First few rows
+
+```{julia}
+first(df, 6)
+```
+
+## Summary statistics
+
+```{julia}
+describe(df)
+```
+
+## Outcomes
+
+```{julia}
+using StatsBase
+outcome_counts = combine(groupby(df, :outcome), nrow => :count)
+for row in eachrow(outcome_counts)
+    println("$(rpad(coalesce(string(row.outcome), "missing"), 15)) $(row.count)")
+end
+```
+
+## Epidemic curve
+
+```{julia}
+onset = dropmissing(df, :date_of_onset)
+sort!(onset, :date_of_onset)
+println("Onset range: $(minimum(onset.date_of_onset)) to $(maximum(onset.date_of_onset))")
+daily = combine(groupby(onset, :date_of_onset), nrow => :cases)
+sort!(daily, :date_of_onset)
+for row in eachrow(daily)
+    bar = repeat("█", row.cases)
+    println("$(row.date_of_onset) | $bar $(row.cases)")
+end
+```

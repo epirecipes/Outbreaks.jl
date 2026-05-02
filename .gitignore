@@ -1,0 +1,21 @@
+# Julia
+Manifest.toml
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+deps/build.log
+
+# Documentation build
+docs/build/
+docs/Manifest.toml
+
+# Vignette outputs
+vignettes/**/index.html
+vignettes/**/index.pdf
+vignettes/**/index.md
+vignettes/**/*_files/
+vignettes/.quarto/
+
+# OS
+.DS_Store
+Thumbs.db

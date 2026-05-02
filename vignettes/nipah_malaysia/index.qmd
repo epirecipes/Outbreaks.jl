@@ -1,0 +1,34 @@
+---
+title: "Nipah Virus, Malaysia and Singapore, 1997–1999"
+---
+
+## Overview
+
+This dataset records weekly case counts of Nipah virus encephalitis during the 1997–1999 outbreak in Malaysia and Singapore. The outbreak resulted in 257 human cases, primarily among pig farmers. Transmission occurred via a zoonotic spillover pathway from fruit bats to pigs, and then from pigs to humans.
+
+## Source
+
+Pulliam et al. (2011).
+
+## Data
+
+The dataset contains 49 rows and 5 columns of weekly case counts by region:
+
+- **date**: week of report
+- **perak**: cases in Perak state
+- **negeri_sembilan**: cases in Negeri Sembilan state
+- **selangor**: cases in Selangor state
+- **singapore**: cases in Singapore
+
+```{julia}
+using Outbreaks
+using DataFrames
+df = Outbreaks.nipah_malaysia()
+first(df, 6)
+```
+
+## Summary statistics
+
+```{julia}
+describe(df)
+```

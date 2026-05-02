@@ -1,0 +1,31 @@
+---
+title: "Smallpox, Abakaliki, Nigeria, 1967"
+---
+
+## Overview
+
+This dataset documents 32 cases of smallpox in Abakaliki, Nigeria, in 1967. The outbreak occurred predominantly within a religious community (Faith Tabernacle Church) whose members refused vaccination and other medical interventions. The dataset contains 32 rows and 8 columns: case ID, date of onset, age, gender, vaccination status, vaccination scar, Faith Tabernacle Church membership, and compound.
+
+## Source
+
+Thompson, D. & Foege, W. (1968). Faith Tabernacle smallpox epidemic, Abakaliki, Nigeria. *WHO*, 3:1–9.
+
+## Loading the data
+
+```{julia}
+using Outbreaks
+using DataFrames
+df = Outbreaks.smallpox_abakaliki_1967()
+```
+
+## First few rows
+
+```{julia}
+first(df, 6)
+```
+
+## Summary statistics
+
+```{julia}
+describe(df)
+```

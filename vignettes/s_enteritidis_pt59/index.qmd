@@ -1,0 +1,46 @@
+---
+title: "Salmonella Enteritidis PT59 Outbreak"
+---
+
+## Overview
+
+This dataset describes a food-borne outbreak of *Salmonella* Enteritidis phage type 59 (PT59). The data include a food distribution network represented as a directed graph of supplier–retailer links, and genetic cluster assignments for isolates, enabling joint epidemiological and molecular analysis of the outbreak.
+
+## Source
+
+Multi-agency Outbreak Control Team (Public Health England).
+
+## Data
+
+The dataset is returned as a `NamedTuple` with two DataFrames:
+
+- **graph**: from, to (edges of the food distribution network)
+- **cluster**: genetic cluster assignments for isolates
+
+```{julia}
+using Outbreaks
+using DataFrames
+data = Outbreaks.s_enteritidis_pt59()
+graph = data.graph
+cluster = data.cluster
+```
+
+### Distribution network
+
+```{julia}
+first(graph, 6)
+```
+
+```{julia}
+describe(graph)
+```
+
+### Genetic clusters
+
+```{julia}
+first(cluster, 6)
+```
+
+```{julia}
+describe(cluster)
+```

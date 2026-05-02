@@ -1,0 +1,31 @@
+---
+title: "SARS-CoV-2 WHO Situation Reports, 2019–2020"
+---
+
+## Overview
+
+This dataset contains information manually transcribed from the World Health Organization (WHO) Situation Reports on SARS-CoV-2 (COVID-19) during the early phase of the pandemic. Each row corresponds to a single WHO Situation Report. Data availability varies across reports as reporting formats evolved over time.
+
+## Source
+
+WHO Situation Reports: <https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports>
+
+## Loading the data
+
+```{julia}
+using Outbreaks
+using DataFrames
+df = Outbreaks.sarscov2_who_2019()
+```
+
+## First few rows
+
+```{julia}
+first(df, 6)
+```
+
+## Summary statistics
+
+```{julia}
+describe(df)
+```

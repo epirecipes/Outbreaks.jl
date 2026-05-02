@@ -1,0 +1,63 @@
+---
+title: "Simulated Ebola Outbreak"
+---
+
+## Overview
+
+This is a simulated Ebola Virus Disease outbreak dataset, designed with properties mimicking the West African 2014–2015 epidemic. Created by Pierre Nouvellet as a teaching resource, it contains intentional data quality issues (e.g., negative incubation periods from erroneous date entries) to illustrate real-world data cleaning challenges. A cleaned version (`ebola_sim_clean`) with erroneous dates removed is also provided.
+
+The dataset is a `NamedTuple` with two components: a **linelist** of cases and a **contacts** tracing DataFrame.
+
+## Loading the data
+
+```{julia}
+using DataFrames
+using Outbreaks
+data = Outbreaks.ebola_sim()
+linelist = data.linelist
+contacts = data.contacts
+println("Linelist: $(size(linelist))")
+println("Contacts: $(size(contacts))")
+```
+
+## Linelist — first few rows
+
+```{julia}
+first(linelist, 6)
+```
+
+## Linelist summary
+
+```{julia}
+describe(linelist)
+```
+
+## Contacts — first few rows
+
+```{julia}
+first(contacts, 6)
+```
+
+## Cleaned version
+
+```{julia}
+clean = Outbreaks.ebola_sim_clean()
+clean_ll = clean.linelist
+println("Raw linelist rows: $(nrow(linelist))")
+println("Cleaned linelist rows: $(nrow(clean_ll))")
+println("Rows removed: $(nrow(linelist) - nrow(clean_ll))")
+```
+
+## Epidemic curve
+
+```{julia}
+using Dates
+onset = dropmissing(clean_ll, :date_of_onset)
+sort!(onset, :date_of_onset)
+weekly = combine(groupby(transform(onset, :date_of_onset => (x -> x .- Dates.Day.(Dates.dayofweek.(x) .- 1)) => :week_start), :week_start), nrow => :cases)
+sort!(weekly, :week_start)
+for row in eachrow(weekly)
+    bar = repeat("█", max(1, round(Int, row.cases / 2)))
+    println("$(row.week_start) | $bar $(row.cases)")
+end
+```

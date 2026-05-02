@@ -1,0 +1,31 @@
+---
+title: "Simulated Varicella Outbreak, Berlin, 2015"
+---
+
+## Overview
+
+This is a simulated dataset of a varicella (chickenpox) outbreak based on conditions in asylum seeker centers in Berlin, Germany, in 2015. The dataset contains 500 rows and 13 columns including demographic information (sex, ethnicity, name, age), center assignments with arrival and departure dates, and disease onset date.
+
+## Source
+
+Jakob Schumacher; generated using the `outbreakcreator` package.
+
+## Loading the data
+
+```{julia}
+using Outbreaks
+using DataFrames
+df = Outbreaks.varicella_sim_berlin()
+```
+
+## First few rows
+
+```{julia}
+first(df, 6)
+```
+
+## Summary statistics
+
+```{julia}
+describe(df)
+```

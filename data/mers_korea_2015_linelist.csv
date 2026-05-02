@@ -1,0 +1,163 @@
+"id","age","age_class","sex","place_infect","reporting_ctry","loc_hosp","dt_onset","dt_report","week_report","dt_start_exp","dt_end_exp","dt_diag","outcome","dt_death"
+"SK_1",68,"60-69","M","Middle East","South Korea","Pyeongtaek St. Mary, Hospital, Pyeongtaek, Gyeonggi","2015-05-11","2015-05-19","2015_21","2015-04-18","2015-05-04","2015-05-20","Alive",NA
+"SK_2",63,"60-69","F","Outside Middle East","South Korea","Pyeongtaek St. Mary, Hospital, Pyeongtaek, Gyeonggi","2015-05-18","2015-05-20","2015_21","2015-05-15","2015-05-20","2015-05-20","Alive",NA
+"SK_3",76,"70-79","M","Outside Middle East","South Korea","Pyeongtaek St. Mary, Hospital, Pyeongtaek, Gyeonggi","2015-05-20","2015-05-20","2015_21","2015-05-16","2015-05-16","2015-05-21","Dead","2015-06-04"
+"SK_4",46,"40-49","F","Outside Middle East","South Korea","Pyeongtaek St. Mary, Hospital, Pyeongtaek, Gyeonggi","2015-05-25","2015-05-26","2015_22","2015-05-16","2015-05-20","2015-05-26","Alive",NA
+"SK_5",50,"50-59","M","Outside Middle East","South Korea","365 Yeollin Clinic, Seoul","2015-05-25","2015-05-27","2015_22","2015-05-17","2015-05-17","2015-05-26","Alive",NA
+"SK_6",71,"70-79","M","Outside Middle East","South Korea","Pyeongtaek St. Mary, Hospital, Pyeongtaek, Gyeonggi","2015-05-24","2015-05-28","2015_22","2015-05-15","2015-05-17","2015-05-28","Dead","2015-06-01"
+"SK_7",28,"20-29","F","Outside Middle East","South Korea","Pyeongtaek St. Mary, Hospital, Pyeongtaek, Gyeonggi","2015-05-21","2015-05-28","2015_22","2015-05-16","2015-05-17","2015-05-28","Alive",NA
+"SK_8",46,"40-49","F","Outside Middle East","South Korea","Seoul Clinic, Asan, Chungcheongnam","2015-05-26","2015-05-29","2015_22","2015-05-15","2015-05-15","2015-05-29","Alive",NA
+"SK_9",56,"50-59","M","Outside Middle East","South Korea","Pyeongtaek St. Mary, Hospital, Pyeongtaek, Gyeonggi",NA,"2015-05-29","2015_22","2015-05-15","2015-05-17","2015-05-29","Alive",NA
+"SK_10",44,"40-49","M","Outside Middle East","China","Pyeongtaek St. Mary, Hospital, Pyeongtaek, Gyeonggi","2015-05-21","2015-05-29","2015_22","2015-05-16","2015-05-16","2015-05-29","Alive",NA
+"SK_11",79,"70-79","F","Outside Middle East","South Korea","Pyeongtaek St. Mary, Hospital, Pyeongtaek, Gyeonggi","2015-05-20","2015-05-29","2015_22","2015-05-15","2015-05-17","2015-05-29","Alive",NA
+"SK_12",49,"40-49","F","Outside Middle East","South Korea","Pyeongtaek St. Mary, Hospital, Pyeongtaek, Gyeonggi","2015-05-21","2015-05-29","2015_22","2015-05-15","2015-05-17","2015-05-29","Alive",NA
+"SK_13",49,"40-49","M","Outside Middle East","South Korea","Pyeongtaek St. Mary, Hospital, Pyeongtaek, Gyeonggi","2015-05-21","2015-05-30","2015_22","2015-05-15","2015-05-17","2015-05-29","Alive",NA
+"SK_14",35,"30-39","M","Outside Middle East","South Korea","Pyeongtaek St. Mary, Hospital, Pyeongtaek, Gyeonggi","2015-05-17","2015-05-31","2015_23","2015-05-15","2015-05-17","2015-05-30","Alive",NA
+"SK_15",35,"30-39","M","Outside Middle East","South Korea","Pyeongtaek St. Mary, Hospital, Pyeongtaek, Gyeonggi","2015-05-24","2015-05-31","2015_23","2015-05-15","2015-05-17","2015-05-30","Alive",NA
+"SK_16",40,"40-49","M","Outside Middle East","South Korea","Pyeongtaek St. Mary, Hospital, Pyeongtaek, Gyeonggi","2015-05-20","2015-06-01","2015_23","2015-05-15","2015-05-17","2015-05-31","Alive",NA
+"SK_17",45,"40-49","M","Outside Middle East","South Korea","Pyeongtaek St. Mary, Hospital, Pyeongtaek, Gyeonggi","2015-05-22","2015-06-01","2015_23","2015-05-15","2015-05-16","2015-05-31","Alive",NA
+"SK_18",77,"70-79","F","Outside Middle East","South Korea","Pyeongtaek St. Mary, Hospital, Pyeongtaek, Gyeonggi","2015-05-20","2015-06-01","2015_23","2015-05-15","2015-05-16","2015-05-31","Alive",NA
+"SK_19",60,"60-69","M","Outside Middle East","South Korea","Pyeongtaek St. Mary, Hospital, Pyeongtaek, Gyeonggi","2015-05-28","2015-06-02","2015_23","2015-05-16","2015-05-17","2015-06-01","Alive",NA
+"SK_20",40,"40-49","M","Outside Middle East","South Korea","Pyeongtaek St. Mary, Hospital, Pyeongtaek, Gyeonggi","2015-05-23","2015-06-02","2015_23","2015-05-15","2015-05-17","2015-06-01","Alive",NA
+"SK_21",59,"50-59","F","Outside Middle East","South Korea","Pyeongtaek St. Mary, Hospital, Pyeongtaek, Gyeonggi","2015-05-23","2015-06-02","2015_23","2015-05-15","2015-05-17","2015-06-01","Alive",NA
+"SK_22",39,"30-39","F","Outside Middle East","South Korea","Pyeongtaek St. Mary, Hospital, Pyeongtaek, Gyeonggi","2015-05-27","2015-06-02","2015_23","2015-05-15","2015-05-17","2015-06-01","Alive",NA
+"SK_23",73,"70-79","M","Outside Middle East","South Korea","Konyang University Hospital, Daejeon","2015-05-31","2015-06-02","2015_23","2015-05-28","2015-05-30","2015-06-01","Dead",NA
+"SK_24",78,"70-79","M","Outside Middle East","South Korea","Konyang University Hospital, Daejeon","2015-05-31","2015-06-02","2015_23","2015-05-28","2015-05-30","2015-06-01","Dead",NA
+"SK_25",57,"50-59","F","Outside Middle East","South Korea","Pyeongtaek St. Mary, Hospital, Pyeongtaek, Gyeonggi",NA,"2015-06-03","2015_23","2015-05-15","2015-05-17","2015-06-01","Dead","2015-06-01"
+"SK_26",43,"40-49","M","Outside Middle East","South Korea","Pyeongtaek St. Mary, Hospital, Pyeongtaek, Gyeonggi","2015-05-21","2015-06-03","2015_23","2015-05-15","2015-05-17","2015-06-02","Alive",NA
+"SK_27",55,"50-59","M","Outside Middle East","South Korea","Pyeongtaek St. Mary, Hospital, Pyeongtaek, Gyeonggi","2015-06-01","2015-06-03","2015_23","2015-05-15","2015-05-17","2015-06-02","Alive",NA
+"SK_28",58,"50-59","M","Outside Middle East","South Korea","Pyeongtaek St. Mary, Hospital, Pyeongtaek, Gyeonggi","2015-05-29","2015-06-03","2015_23","2015-05-15","2015-05-17","2015-06-02","Dead",NA
+"SK_29",77,"70-79","F","Outside Middle East","South Korea","Pyeongtaek St. Mary, Hospital, Pyeongtaek, Gyeonggi",NA,"2015-06-03","2015_23","2015-05-15","2015-05-17","2015-06-02","Alive",NA
+"SK_30",60,"60-69","M","Outside Middle East","South Korea","Dae Cheong Hospital, Daejeon","2015-05-30","2015-06-03","2015_23","2015-05-22","2015-05-28","2015-06-02","Alive",NA
+"SK_31",69,"60-69","M","Outside Middle East","South Korea","Konyang University Hospital, Daejeon","2015-06-01","2015-06-03","2015_23","2015-05-28","2015-05-30","2015-06-04","Alive",NA
+"SK_32",54,"50-59","M","Outside Middle East","South Korea","Pyeongtaek St. Mary, Hospital, Pyeongtaek, Gyeonggi","2015-05-23","2015-06-03","2015_23","2015-05-15","2015-05-15","2015-06-04","Alive",NA
+"SK_33",47,"40-49","M","Outside Middle East","South Korea","Pyeongtaek St. Mary, Hospital, Pyeongtaek, Gyeonggi","2015-05-21","2015-06-03","2015_23","2015-05-15","2015-05-15","2015-06-04","Alive",NA
+"SK_34",25,"20-29","F","Outside Middle East","South Korea","Pyeongtaek St. Mary, Hospital, Pyeongtaek, Gyeonggi","2015-05-20","2015-06-03","2015_23","2015-05-15","2015-05-17","2015-06-04","Alive",NA
+"SK_35",38,"30-39","M","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-05-31","2015-06-03","2015_23","2015-05-27","2015-05-27","2015-06-04","Alive",NA
+"SK_36",82,"80-89","M","Outside Middle East","South Korea","Konyang University Hospital, Daejeon",NA,"2015-06-04","2015_23","2015-05-28","2015-05-28","2015-06-04","Dead","2015-06-03"
+"SK_37",45,"40-49","M","Outside Middle East","South Korea","Pyeongtaek St. Mary, Hospital, Pyeongtaek, Gyeonggi",NA,"2015-06-05","2015_23","2015-05-14","2015-05-27","2015-06-05","Alive",NA
+"SK_38",49,"40-49","M","Outside Middle East","South Korea","Dae Cheong Hospital, Daejeon","2015-05-23","2015-06-05","2015_23","2015-05-14","2015-05-31","2015-06-05","Dead",NA
+"SK_39",62,"60-69","M","Outside Middle East","South Korea","Pyeongtaek St. Mary, Hospital, Pyeongtaek, Gyeonggi","2015-06-02","2015-06-05","2015_23","2015-05-20","2015-05-28","2015-06-05","Alive",NA
+"SK_40",24,"20-29","M","Outside Middle East","South Korea","Pyeongtaek St. Mary, Hospital, Pyeongtaek, Gyeonggi","2015-05-22","2015-06-05","2015_23","2015-05-22","2015-05-28","2015-06-05","Alive",NA
+"SK_41",70,"70-79","F","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-05-31","2015-06-05","2015_23","2015-05-27","2015-05-27","2015-06-05","Alive",NA
+"SK_42",54,"50-59","F","Outside Middle East","South Korea","Pyeongtaek St. Mary, Hospital, Pyeongtaek, Gyeonggi","2015-05-25","2015-06-05","2015_23","2015-05-19","2015-05-20","2015-06-05","Alive",NA
+"SK_43",24,"20-29","F","Outside Middle East","South Korea","Pyeongtaek St. Mary, Hospital, Pyeongtaek, Gyeonggi","2015-05-29","2015-06-06","2015_23",NA,NA,"2015-06-06","Alive",NA
+"SK_44",51,"50-59","F","Outside Middle East","South Korea","Pyeongtaek St. Mary, Hospital, Pyeongtaek, Gyeonggi","2015-06-01","2015-06-06","2015_23","2015-05-18","2015-05-28","2015-06-06","Alive",NA
+"SK_45",65,"60-69","M","Outside Middle East","South Korea","Konyang University Hospital, Daejeon","2015-06-01","2015-06-06","2015_23","2015-05-28","2015-05-30","2015-06-06","Alive",NA
+"SK_46",56,"50-59","M","Outside Middle East","South Korea","Samsung Medical Center, Seoul",NA,"2015-06-06","2015_23","2015-05-27","2015-05-27","2015-06-06","Alive",NA
+"SK_47",68,"60-69","F","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-02","2015-06-06","2015_23","2015-05-27","2015-05-27","2015-06-06","Dead","2015-06-08"
+"SK_48",39,"30-39","M","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-05-31","2015-06-06","2015_23","2015-05-28","2015-05-28","2015-06-06","Alive",NA
+"SK_49",75,"70-79","M","Outside Middle East","South Korea","Samsung Medical Center, Seoul",NA,"2015-06-06","2015_23","2015-05-27","2015-05-27","2015-06-06","Alive",NA
+"SK_50",81,"80-89","F","Outside Middle East","South Korea","Samsung Medical Center, Seoul",NA,"2015-06-06","2015_23","2015-05-27","2015-05-27","2015-06-06","Alive",NA
+"SK_51",72,"70-79","F","Outside Middle East","South Korea","Pyeongtaek St. Mary, Hospital, Pyeongtaek, Gyeonggi","2015-06-02","2015-06-06","2015_23","2015-05-12","2015-05-21","2015-06-06","Dead",NA
+"SK_52",54,"50-59","F","Outside Middle East","South Korea","Pyeongtaek St. Mary, Hospital, Pyeongtaek, Gyeonggi","2015-05-31","2015-06-06","2015_23","2015-05-23","2015-05-28","2015-06-06","Alive",NA
+"SK_53",51,"50-59","M","Outside Middle East","South Korea","Pyeongtaek St. Mary, Hospital, Pyeongtaek, Gyeonggi","2015-05-29","2015-06-06","2015_23","2015-05-26","2015-05-28","2015-06-06","Alive",NA
+"SK_54",63,"60-69","F","Outside Middle East","South Korea","Dae Cheong Hospital, Daejeon","2015-06-03","2015-06-06","2015_23","2015-05-22","2015-05-28","2015-06-06","Alive",NA
+"SK_55",36,"30-39","M","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-05-30","2015-06-06","2015_23","2015-05-26","2015-05-28","2015-06-06","Alive",NA
+"SK_56",45,"40-49","M","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-02","2015-06-06","2015_23","2015-05-26","2015-06-01","2015-06-06","Alive",NA
+"SK_57",57,"50-59","M","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-03","2015-06-06","2015_23","2015-05-27","2015-05-27","2015-06-06","Alive",NA
+"SK_58",55,"50-59","M","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-02","2015-06-06","2015_23","2015-05-27","2015-05-27","2015-06-06","Alive",NA
+"SK_59",44,"40-49","M","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-05","2015-06-06","2015_23","2015-05-27","2015-05-27","2015-06-06","Alive",NA
+"SK_60",37,"30-39","F","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-01","2015-06-06","2015_23","2015-05-27","2015-05-27","2015-06-06","Alive",NA
+"SK_61",55,"50-59","M","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-02","2015-06-06","2015_23","2015-05-27","2015-05-28","2015-06-06","Alive",NA
+"SK_62",32,"30-39","M","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-05-30","2015-06-06","2015_23","2015-05-27","2015-05-28","2015-06-06","Alive",NA
+"SK_63",58,"50-59","F","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-03","2015-06-06","2015_23","2015-05-28","2015-05-29","2015-06-06","Alive",NA
+"SK_64",75,"70-79","M","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-04","2015-06-06","2015_23","2015-05-27","2015-05-29","2015-06-06","Dead","2015-06-05"
+"SK_65",55,"50-59","F","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-01","2015-06-07","2015_24","2015-05-27","2015-05-27","2015-06-07","Alive",NA
+"SK_66",42,"40-49","F","Outside Middle East","South Korea","Samsung Medical Center, Seoul",NA,"2015-06-07","2015_24","2015-05-27","2015-05-30","2015-06-07","Alive",NA
+"SK_67",16,"10-20","M","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-05-31","2015-06-07","2015_24","2015-05-27","2015-05-27","2015-06-07","Alive",NA
+"SK_68",55,"50-59","F","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-04","2015-06-07","2015_24","2015-05-27","2015-05-27","2015-06-07","Alive",NA
+"SK_69",57,"50-59","M","Outside Middle East","South Korea","Samsung Medical Center, Seoul",NA,"2015-06-07","2015_24","2015-05-27","2015-05-27","2015-06-07","Alive",NA
+"SK_70",59,"50-59","M","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-05-30","2015-06-07","2015_24","2015-05-27","2015-05-28","2015-06-07","Alive",NA
+"SK_71",40,"40-49","F","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-04","2015-06-07","2015_24","2015-05-27","2015-05-27","2015-06-07","Alive",NA
+"SK_72",56,"50-59","M","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-03","2015-06-07","2015_24","2015-05-27","2015-05-27","2015-06-07","Alive",NA
+"SK_73",65,"60-69","F","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-01","2015-06-07","2015_24","2015-05-27","2015-05-27","2015-06-07","Alive",NA
+"SK_74",71,"70-79","M","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-01","2015-06-07","2015_24","2015-05-27","2015-05-27","2015-06-07","Alive",NA
+"SK_75",63,"60-69","F","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-07","2015-06-07","2015_24","2015-05-25","2015-05-28","2015-06-07","Alive",NA
+"SK_76",75,"70-79","F","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-05","2015-06-07","2015_24","2015-05-27","2015-05-28","2015-06-07","Dead","2015-06-10"
+"SK_77",63,"60-69","M","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-04","2015-06-07","2015_24","2015-05-27","2015-05-28","2015-06-07","Alive",NA
+"SK_78",41,"40-49","F","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-01","2015-06-07","2015_24","2015-05-27","2015-05-28","2015-06-07","Alive",NA
+"SK_79",24,"20-29","F","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-04","2015-06-07","2015_24","2015-05-27","2015-05-29","2015-06-07","Alive",NA
+"SK_80",35,"30-39","M","Outside Middle East","South Korea","Samsung Medical Center, Seoul",NA,"2015-06-07","2015_24","2015-05-27","2015-05-29","2015-06-07","Alive",NA
+"SK_81",62,"60-69","M","Outside Middle East","South Korea","Samsung Medical Center, Seoul",NA,"2015-06-07","2015_24","2015-05-28","2015-05-28","2015-06-07","Dead",NA
+"SK_82",83,"80-89","F","Outside Middle East","South Korea","Konyang University Hospital, Daejeon","2015-06-01","2015-06-07","2015_24","2015-05-28","2015-05-30","2015-06-07","Alive",NA
+"SK_83",65,"60-69","M","Outside Middle East","South Korea","Konyang University Hospital, Daejeon","2015-06-01","2015-06-07","2015_24","2015-05-28","2015-05-30","2015-06-07","Dead","2015-06-11"
+"SK_84",80,"80-89","M","Outside Middle East","South Korea","Dae Cheong Hospital, Daejeon","2015-06-05","2015-06-07","2015_24","2015-05-25","2015-05-28","2015-06-07","Dead","2015-06-08"
+"SK_85",66,"60-69","F","Outside Middle East","South Korea","Dae Cheong Hospital, Daejeon","2015-06-01","2015-06-07","2015_24","2015-05-25","2015-05-28","2015-06-07","Alive",NA
+"SK_86",76,"70-79","F","Outside Middle East","South Korea","Dae Cheong Hospital, Daejeon","2015-06-02","2015-06-07","2015_24","2015-05-25","2015-05-28","2015-06-07","Alive",NA
+"SK_87",78,"70-79","F","Outside Middle East","South Korea","Dae Cheong Hospital, Daejeon","2015-06-04","2015-06-07","2015_24","2015-05-25","2015-05-28","2015-06-07","Alive",NA
+"SK_88",47,"40-49","M","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-07","2015-06-08","2015_24","2015-05-28","2015-05-28","2015-06-08","Alive",NA
+"SK_89",59,"50-59","M","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-03","2015-06-08","2015_24","2015-05-28","2015-05-28","2015-06-08","Alive",NA
+"SK_90",62,"60-69","M","Outside Middle East","South Korea","Samsung Medical Center, Seoul",NA,"2015-06-08","2015_24","2015-05-27","2015-05-27","2015-06-08","Dead","2015-06-10"
+"SK_91",49,"40-49","M","Outside Middle East","South Korea","Samsung Medical Center, Seoul",NA,"2015-06-08","2015_24",NA,NA,"2015-06-08","Alive",NA
+"SK_92",27,"20-29","M","Outside Middle East","South Korea","Seoul Clinic, Asan, Chungcheongnam","2015-06-08","2015-06-08","2015_24","2015-05-26","2015-05-26","2015-06-08","Alive",NA
+"SK_93",64,"60-69","F","Outside Middle East","South Korea","Hallym University Medical Center","2015-06-07","2015-06-08","2015_24","2015-05-28","2015-05-29","2015-06-08","Alive",NA
+"SK_94",71,"70-79","M","Outside Middle East","South Korea","Hallym University Medical Center","2015-06-02","2015-06-08","2015_24","2015-05-27","2015-05-28","2015-06-08","Alive",NA
+"SK_95",76,"70-79","M","Outside Middle East","South Korea","Konyang University Hospital, Daejeon",NA,"2015-06-08","2015_24",NA,NA,"2015-06-08","Alive",NA
+"SK_96",42,"40-49","F","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-06","2015-06-09","2015_24","2015-05-27","2015-05-27","2015-06-09","Alive",NA
+"SK_97",46,"40-49","M","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-05","2015-06-09","2015_24","2015-05-27","2015-05-27","2015-06-09","Alive",NA
+"SK_98",58,"50-59","M","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-04","2015-06-09","2015_24","2015-05-27","2015-05-27","2015-06-09","Dead",NA
+"SK_99",48,"40-49","M","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-05-31","2015-06-09","2015_24","2015-05-27","2015-05-27","2015-06-09","Alive",NA
+"SK_100",32,"30-39","F","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-01","2015-06-09","2015_24","2015-05-26","2015-05-27","2015-06-09","Alive",NA
+"SK_101",84,"80-89","M","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-01","2015-06-09","2015_24","2015-05-27","2015-05-27","2015-06-09","Alive",NA
+"SK_102",48,"40-49","F","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-04","2015-06-09","2015_24","2015-05-27","2015-05-27","2015-06-09","Alive",NA
+"SK_103",66,"60-69","M","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-06","2015-06-09","2015_24","2015-05-27","2015-05-27","2015-06-09","Alive",NA
+"SK_104",55,"50-59","M","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-06","2015-06-09","2015_24","2015-05-27","2015-05-27","2015-06-09","Alive",NA
+"SK_105",63,"60-69","M","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-05-31","2015-06-09","2015_24","2015-05-27","2015-05-28","2015-06-09","Alive",NA
+"SK_106",60,"60-69","F","Outside Middle East","South Korea","Konyang University Hospital, Daejeon","2015-06-07","2015-06-09","2015_24","2015-05-28","2015-05-30","2015-06-09","Alive",NA
+"SK_107",64,"60-69","F","Outside Middle East","South Korea","Dae Cheong Hospital, Daejeon","2015-06-06","2015-06-09","2015_24",NA,NA,"2015-06-09","Alive",NA
+"SK_108",32,"30-39","F","Outside Middle East","South Korea","Hallym University Medical Center","2015-06-04","2015-06-09","2015_24","2015-05-29","2015-05-31","2015-06-09","Alive",NA
+"SK_109",39,"30-39","F","Outside Middle East","South Korea","Samsung Medical Center, Seoul",NA,"2015-06-10","2015_24","2015-05-27","2015-05-28","2015-06-10","Alive",NA
+"SK_110",57,"50-59","F","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-02","2015-06-10","2015_24","2015-05-28","2015-05-28","2015-06-10","Alive",NA
+"SK_111",43,"40-49","F","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-04","2015-06-10","2015_24","2015-05-27","2015-05-27","2015-06-10","Alive",NA
+"SK_112",63,"60-69","M","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-05-31","2015-06-10","2015_24","2015-05-27","2015-05-27","2015-06-10","Alive",NA
+"SK_113",64,"60-69","M","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-05-27","2015-06-10","2015_24","2015-05-27","2015-05-27","2015-06-10","Alive",NA
+"SK_114",46,"40-49","M","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-01","2015-06-10","2015_24","2015-05-27","2015-05-29","2015-06-10","Alive",NA
+"SK_115",77,"70-79","M","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-05","2015-06-10","2015_24","2015-05-27","2015-05-27","2015-06-10","Alive",NA
+"SK_116",56,"50-59","F","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-05-30","2015-06-10","2015_24","2015-05-27","2015-05-27","2015-06-10","Alive",NA
+"SK_117",25,"20-29","F","Outside Middle East","South Korea","Hallym University Dongtan Sacred Heart Hospital, Hwaseong, Gyeonggi","2015-06-08","2015-06-10","2015_24","2015-05-27","2015-05-29","2015-06-10","Alive",NA
+"SK_118",67,"60-69","F","Outside Middle East","South Korea","Pyeongtaek goodmorning hospital","2015-06-06","2015-06-10","2015_24","2015-05-25","2015-05-27","2015-06-10","Dead",NA
+"SK_119",35,"30-39","M","Outside Middle East","South Korea","Pyeongtaek fraternity hospital",NA,"2015-06-10","2015_24","2015-05-31","2015-05-31","2015-06-10","Alive",NA
+"SK_120",75,"70-79","M","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-03","2015-06-10","2015_24","2015-05-27","2015-05-29","2015-06-10","Alive",NA
+"SK_121",77,"70-79","M","Outside Middle East","South Korea","Pyeongtaek goodmorning hospital",NA,"2015-06-10","2015_24","2015-05-25","2015-05-27","2015-06-10","Alive",NA
+"SK_122",55,"50-59","F","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-02","2015-06-10","2015_24","2015-05-27","2015-05-27","2015-06-10","Alive",NA
+"SK_123",65,"60-69","M","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-07","2015-06-11","2015_24","2015-05-27","2015-05-29","2015-06-11","Dead",NA
+"SK_124",36,"30-39","M","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-08","2015-06-11","2015_24","2015-05-28","2015-05-29","2015-06-11","Alive",NA
+"SK_125",56,"50-59","M","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-10","2015-06-11","2015_24","2015-05-27","2015-05-27","2015-06-11","Alive",NA
+"SK_126",70,"70-79","F","Outside Middle East","South Korea","Pyeongtaek goodmorning hospital","2015-06-07","2015-06-11","2015_24","2015-05-27","2015-05-27","2015-06-11","Alive",NA
+"SK_127",76,"70-79","F","Outside Middle East","South Korea","Konyang University Hospital, Daejeon","2015-06-06","2015-06-12","2015_24","2015-05-28","2015-05-30","2015-06-12","Alive",NA
+"SK_128",87,"80-89","M","Outside Middle East","South Korea","Dae Cheong Hospital, Daejeon","2015-06-03","2015-06-12","2015_24","2015-05-22","2015-05-28","2015-06-12","Alive",NA
+"SK_129",86,"80-89","M","Outside Middle East","South Korea","Dae Cheong Hospital, Daejeon","2015-06-10","2015-06-12","2015_24","2015-05-22","2015-05-28","2015-06-12","Alive",NA
+"SK_130",65,"60-69","F","Outside Middle East","South Korea","Dae Cheong Hospital, Daejeon","2015-06-11","2015-06-12","2015_24","2015-05-22","2015-05-28","2015-06-12","Alive",NA
+"SK_131",59,"50-59","M","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-07","2015-06-12","2015_24","2015-05-27","2015-05-27","2015-06-12","Alive",NA
+"SK_132",55,"50-59","M","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-08","2015-06-12","2015_24","2015-05-27","2015-05-28","2015-06-12","Alive",NA
+"SK_133",70,"70-79","M","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-08","2015-06-12","2015_24","2015-06-05","2015-06-06","2015-06-12","Alive",NA
+"SK_134",67,"60-69","F","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-04","2015-06-12","2015_24","2015-05-27","2015-05-28","2015-06-12","Alive",NA
+"SK_135",33,"30-39","M","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-08","2015-06-12","2015_24","2015-05-29","2015-05-29","2015-06-12","Alive",NA
+"SK_136",67,"60-69","M","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-01","2015-06-12","2015_24","2015-05-27","2015-05-27","2015-06-12","Alive",NA
+"SK_137",55,"50-59","M","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-11","2015-06-12","2015_24","2015-05-27","2015-05-29","2015-06-12","Alive",NA
+"SK_138",37,"30-39","M","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-10","2015-06-12","2015_24","2015-05-27","2015-05-27","2015-06-12","Alive",NA
+"SK_139",64,"60-69","F","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-05","2015-06-13","2015_24","2015-05-27","2015-05-29","2015-06-13","Alive",NA
+"SK_140",80,"80-89","F","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-10","2015-06-13","2015_24","2015-05-27","2015-05-28","2015-06-13","Alive",NA
+"SK_141",42,"40-49","M","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-09","2015-06-13","2015_24","2015-05-27","2015-05-27","2015-06-13","Alive",NA
+"SK_142",31,"30-39","M","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-05","2015-06-13","2015_24","2015-05-27","2015-05-29","2015-06-13","Alive",NA
+"SK_143",31,"30-39","M","Outside Middle East","South Korea","Dae Cheong Hospital, Daejeon","2015-06-02","2015-06-13","2015_24","2015-05-25","2015-05-28","2015-06-13","Alive",NA
+"SK_144",71,"70-79","M","Outside Middle East","South Korea","Hallym University Medical Center",NA,"2015-06-13","2015_24","2015-05-27","2015-05-29","2015-06-13","Alive",NA
+"SK_145",37,"30-39","M","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-10","2015-06-13","2015_24","2015-06-05","2015-06-06","2015-06-13","Alive",NA
+"SK_146",55,"50-59","M","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-13","2015-06-14","2015_25","2015-05-27","2015-05-27","2015-06-14","Alive",NA
+"SK_147",46,"40-49","F","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-10","2015-06-14","2015_25","2015-06-08","2015-06-08","2015-06-14","Alive",NA
+"SK_148",39,"30-39","F","Outside Middle East","South Korea","Konyang University Hospital, Daejeon","2015-06-05","2015-06-14","2015_25","2015-06-03","2015-06-03","2015-06-14","Alive",NA
+"SK_149",84,"80-89","F","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-04","2015-06-14","2015_25","2015-05-22","2015-05-28","2015-06-14","Alive",NA
+"SK_150",44,"40-49","M","Outside Middle East","South Korea","Konkuk University hospital","2015-06-11","2015-06-14","2015_25","2015-06-06","2015-06-06","2015-06-14","Alive",NA
+"SK_151",38,"30-39","F","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-05","2015-06-15","2015_25","2015-05-27","2015-05-28","2015-06-15","Alive",NA
+"SK_152",66,"60-69","M","Outside Middle East","South Korea","Samsung Medical Center, Seoul","2015-06-06","2015-06-15","2015_25","2015-05-27","2015-05-27","2015-06-15","Alive",NA
+"SK_153",61,"60-69","F","Outside Middle East","South Korea","Hallym University Dongtan Sacred Heart Hospital, Hwaseong, Gyeonggi","2015-06-15","2015-06-15","2015_25","2015-06-05","2015-06-05","2015-06-15","Alive",NA
+"SK_154",52,"50-59","M","Outside Middle East","South Korea","Samsung Medical Center, Emergency room,Seoul","2015-06-13","2015-06-15","2015_25","2015-05-27","2015-05-28","2015-06-15","Alive",NA
+"SK_155",42,"40-49","F","Outside Middle East","South Korea","Samsung Medical Center, Emergency room,Seoul",NA,"2015-06-16","2015_25","2015-05-26","2015-05-29","2015-06-16","Alive",NA
+"SK_156",66,"60-69","M","Outside Middle East","South Korea","Samsung Medical Center, Emergency room,Seoul",NA,"2015-06-16","2015_25","2015-05-27","2015-05-27","2015-06-16","Alive",NA
+"SK_157",60,"60-69","M","Outside Middle East","South Korea","Samsung Medical Center, Emergency room,Seoul",NA,"2015-06-16","2015_25","2015-05-27","2015-05-27","2015-06-16","Alive",NA
+"SK_158",50,"50-59","M","Outside Middle East","South Korea","Samsung Medical Center, Emergency room,Seoul",NA,"2015-06-16","2015_25","2015-05-27","2015-05-27","2015-06-16","Alive",NA
+"SK_159",49,"40-49","M","Outside Middle East","South Korea","Hallym University Dongtan Sacred Heart Hospital, Hwaseong, Gyeonggi",NA,"2015-06-16","2015_25","2015-05-27","2015-05-29","2015-06-16","Alive",NA
+"SK_160",31,"30-39","M","Outside Middle East","South Korea","Gangdong Kyuang Hee University Hospital",NA,"2015-06-16","2015_25","2015-06-05","2015-06-05","2015-06-16","Alive",NA
+"SK_161",79,"70-79","F","Outside Middle East","South Korea","Pyeongtaek goodmorning hospital",NA,"2015-06-16","2015_25","2015-05-27","2015-05-27","2015-06-16","Alive",NA
+"SK_162",33,"30-39","M","Outside Middle East","South Korea","Samsung Medical Center, Seoul",NA,"2015-06-16","2015_25",NA,NA,"2015-06-16","Alive",NA

@@ -1,0 +1,99 @@
+"from","to","exposure","diff_dt_onset"
+"SK_14","SK_113","Emergency room",10
+"SK_14","SK_116","Emergency room",13
+"SK_14","SK_41","Emergency room",14
+"SK_14","SK_112","Emergency room",14
+"SK_14","SK_100","Emergency room",15
+"SK_14","SK_114","Emergency room",15
+"SK_14","SK_136","Emergency room",15
+"SK_14","SK_47","Emergency room",16
+"SK_14","SK_110","Emergency room",16
+"SK_14","SK_122","Emergency room",16
+"SK_14","SK_120","Emergency room",17
+"SK_14","SK_98","Emergency room",18
+"SK_14","SK_102","Emergency room",18
+"SK_14","SK_111","Emergency room",18
+"SK_14","SK_134","Emergency room",18
+"SK_14","SK_97","Emergency room",19
+"SK_14","SK_139","Emergency room",19
+"SK_14","SK_142","Emergency room",19
+"SK_14","SK_96","Emergency room",20
+"SK_14","SK_103","Emergency room",20
+"SK_14","SK_104","Emergency room",20
+"SK_14","SK_123","Emergency room",21
+"SK_14","SK_131","Emergency room",21
+"SK_14","SK_124","Emergency room",22
+"SK_14","SK_132","Emergency room",22
+"SK_14","SK_135","Emergency room",22
+"SK_14","SK_125","Emergency room",24
+"SK_14","SK_138","Emergency room",24
+"SK_14","SK_140","Emergency room",24
+"SK_14","SK_137","Emergency room",25
+"SK_16","SK_107","Emergency room",17
+"SK_6","SK_92","Emergency room",15
+"SK_87","SK_107","Emergency room",2
+"SK_1","SK_2","Family member ",7
+"SK_1","SK_34","Contact with HCW",9
+"SK_1","SK_7","Contact with HCW",10
+"SK_1","SK_5","Contact with HCW",14
+"SK_1","SK_8","Contact with HCW",15
+"SK_14","SK_35","Contact with HCW",14
+"SK_14","SK_133","Contact with HCW",22
+"SK_15","SK_117","Contact with HCW",15
+"SK_76","SK_145","Contact with HCW",5
+"SK_1","SK_3","Hospital room",9
+"SK_14","SK_146","Hospital room",27
+"SK_16","SK_30","Hospital room",10
+"SK_16","SK_82","Hospital room",12
+"SK_16","SK_54","Hospital room",14
+"SK_16","SK_127","Hospital room",17
+"SK_15","SK_94","Hospital room",9
+"SK_15","SK_93","Hospital room",14
+"SK_6","SK_88","Hospital room",14
+"SK_76","SK_150","Hospital room",6
+"SK_1","SK_14","Hospital room",6
+"SK_1","SK_11","Hospital room",9
+"SK_1","SK_16","Hospital room",9
+"SK_1","SK_18","Hospital room",9
+"SK_1","SK_12","Hospital room",10
+"SK_1","SK_20","Hospital room",12
+"SK_1","SK_6","Hospital room",13
+"SK_1","SK_27","Hospital room",21
+"SK_14","SK_40","Hospital room",5
+"SK_14","SK_48","Hospital room",14
+"SK_14","SK_39","Hospital room",16
+"SK_14","SK_118","Hospital room",20
+"SK_14","SK_126","Hospital room",21
+"SK_11","SK_39","Hospital room",13
+"SK_16","SK_38","Hospital room",3
+"SK_16","SK_23","Hospital room",11
+"SK_16","SK_24","Hospital room",11
+"SK_16","SK_31","Hospital room",12
+"SK_16","SK_45","Hospital room",12
+"SK_16","SK_83","Hospital room",12
+"SK_16","SK_85","Hospital room",12
+"SK_16","SK_86","Hospital room",13
+"SK_16","SK_143","Hospital room",13
+"SK_16","SK_128","Hospital room",14
+"SK_16","SK_87","Hospital room",15
+"SK_16","SK_149","Hospital room",15
+"SK_16","SK_84","Hospital room",16
+"SK_16","SK_106","Hospital room",18
+"SK_16","SK_129","Hospital room",21
+"SK_16","SK_130","Hospital room",22
+"SK_12","SK_39","Hospital room",12
+"SK_15","SK_108","Hospital room",11
+"SK_118","SK_153","Hospital room",9
+"SK_123","SK_147","Hospital room",3
+"SK_1","SK_10","Visit hospital",10
+"SK_1","SK_13","Visit hospital",10
+"SK_1","SK_26","Visit hospital",10
+"SK_1","SK_33","Visit hospital",10
+"SK_1","SK_17","Visit hospital",11
+"SK_1","SK_21","Visit hospital",12
+"SK_1","SK_32","Visit hospital",12
+"SK_1","SK_15","Visit hospital",13
+"SK_1","SK_4","Visit hospital",14
+"SK_1","SK_22","Visit hospital",16
+"SK_1","SK_19","Visit hospital",17
+"SK_1","SK_28","Visit hospital",18

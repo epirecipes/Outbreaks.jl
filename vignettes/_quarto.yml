@@ -1,0 +1,24 @@
+project:
+  type: default
+  output-dir: .
+
+format:
+  html:
+    theme: default
+    embed-resources: true
+  pdf:
+    documentclass: article
+    papersize: a4
+    geometry:
+      - margin=2.5cm
+    mainfont: "STIX Two Text"
+    mathfont: "STIX Two Math"
+    monofont: "Menlo"
+    pdf-engine: lualatex
+  gfm:
+    output-file: index.md
+
+engine: julia
+
+execute:
+  freeze: false

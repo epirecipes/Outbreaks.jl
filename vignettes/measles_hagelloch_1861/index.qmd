@@ -1,0 +1,41 @@
+---
+title: "Measles, Hagelloch, Germany, 1861"
+---
+
+## Overview
+
+This dataset documents a measles outbreak in the village of Hagelloch, Germany, in 1861. The detailed records include individual-level data on 188 cases with dates of prodrome and rash onset, spatial locations, family and school class membership, and identified infectors — making it one of the earliest and most complete outbreak datasets available.
+
+## Source
+
+Pfeilsticker (1863); Oesterle (1992); Neal & Roberts (2004).
+
+## Data
+
+The dataset contains 188 rows and 12 columns:
+
+- **case_ID**: unique case identifier
+- **infector**: case ID of the infector
+- **date_of_prodrome**: date of prodromal symptoms
+- **date_of_rash**: date of rash onset
+- **date_of_death**: date of death (if applicable)
+- **age**: age of the individual
+- **gender**: gender
+- **family_ID**: family identifier
+- **class**: school class
+- **complications**: complications recorded
+- **x_loc**: x coordinate of household location
+- **y_loc**: y coordinate of household location
+
+```{julia}
+using Outbreaks
+using DataFrames
+df = Outbreaks.measles_hagelloch_1861()
+first(df, 6)
+```
+
+## Summary statistics
+
+```{julia}
+describe(df)
+```

@@ -1,0 +1,32 @@
+---
+title: "Influenza, Boarding School, England, 1978"
+---
+
+## Overview
+
+This dataset describes an influenza outbreak at a boys' boarding school in England in 1978. Of the 763 boys at the school, 512 became ill over a two-week period. The data record the daily number of boys confined to bed and the number convalescing, providing a classic example of an epidemic curve in a closed population.
+
+## Source
+
+Anonymous (1978). Influenza in a boarding school. *British Medical Journal* 1:578. See also De Vries et al. (2006).
+
+## Data
+
+The dataset contains 14 rows and 3 columns:
+
+- **date**: date of observation
+- **in_bed**: number of boys confined to bed
+- **convalescent**: number of boys convalescing
+
+```{julia}
+using Outbreaks
+using DataFrames
+df = Outbreaks.influenza_england_1978_school()
+first(df, 6)
+```
+
+## Summary statistics
+
+```{julia}
+describe(df)
+```

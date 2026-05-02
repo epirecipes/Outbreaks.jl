@@ -1,0 +1,46 @@
+---
+title: "MERS-CoV, South Korea, 2015"
+---
+
+## Overview
+
+This dataset describes the 2015 outbreak of Middle East Respiratory Syndrome Coronavirus (MERS-CoV) in South Korea. The outbreak was the largest outside the Middle East, driven by nosocomial transmission in healthcare facilities. The data include a linelist of cases and a contact network linking transmission pairs.
+
+## Source
+
+European Centre for Disease Prevention and Control (ECDC).
+
+## Data
+
+The dataset is returned as a `NamedTuple` with two DataFrames:
+
+- **linelist** (cases): id, age, age_class, sex, place_infect, reporting_ctry, loc_hosp, dt_onset, dt_report, week_report, dt_start_exp, dt_end_exp, dt_diag, outcome, dt_death
+- **contacts** (transmission pairs): from, to, exposure, diff_dt_onset
+
+```{julia}
+using Outbreaks
+using DataFrames
+data = Outbreaks.mers_korea_2015()
+linelist = data.linelist
+contacts = data.contacts
+```
+
+### Linelist
+
+```{julia}
+first(linelist, 6)
+```
+
+```{julia}
+describe(linelist)
+```
+
+### Contacts
+
+```{julia}
+first(contacts, 6)
+```
+
+```{julia}
+describe(contacts)
+```

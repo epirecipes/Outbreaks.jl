@@ -1,0 +1,19 @@
+name = "Outbreaks"
+uuid = "fdddf56b-78fd-464b-af12-6ba0e2b6df11"
+authors = ["Simon Frost <sdwfrost@gmail.com> and contributors"]
+version = "0.1.0"
+
+[deps]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+
+[compat]
+CSV = "0.10"
+DataFrames = "1"
+julia = "1.6"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]

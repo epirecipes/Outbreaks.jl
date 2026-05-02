@@ -1,0 +1,501 @@
+"sex","ethnicity","firstname","lastname","age","center1","arrival1","leave1","center2","arrival2","leave2","onset","disease"
+"female","arabic","Saleema","al-Ismael",16,"Oranienburger Str","2015-05-06","2015-06-20","Bizetstr","2015-06-27","2015-08-19",NA,NA
+"male","hispanic","Domonic","Jaramillo",25,"Platz der Luftbruecke","2015-01-19","2015-01-21","Bizetstr","2015-01-30","2015-03-02",NA,NA
+"female","arabic","Haaniya","el-Mitri",34,"Platz der Luftbruecke","2015-04-11","2015-07-09","Platz der Luftbruecke","2015-07-18","2015-10-03","2015-07-06","varicella"
+"female","asian","Erica","Tanghal",11,"Platz der Luftbruecke","2015-01-20","2015-03-30","Oranienburger Str","2015-04-08","2015-07-13","2015-08-20","varicella"
+"male","asian","Fermin Joshua","Kikuchi",34,"Platz der Luftbruecke","2015-06-15","2015-08-17","Platz der Luftbruecke","2015-08-22","2015-11-01",NA,NA
+"male","arabic","Muslim","al-Moussa",5,"Bizetstr","2014-11-18","2015-02-03","Platz der Luftbruecke","2015-02-17","2015-04-27",NA,NA
+"male","arabic","Abdul Baari","al-Ozer",35,"Oranienburger Str","2015-07-19","2015-10-28","Oranienburger Str","2015-11-06","2015-11-09",NA,NA
+"female","arabic","Wadha","el-Dia",11,"Platz der Luftbruecke","2015-02-15","2015-04-10","Platz der Luftbruecke","2015-04-16","2015-06-08","2015-06-24","varicella"
+"male","asian","Binh","Kaneko",13,"Bizetstr","2015-05-06","2015-06-23","Bizetstr","2015-06-29","2015-08-28","2015-03-16","varicella"
+"female","native-american","Ruby","Cook",15,"Platz der Luftbruecke","2014-12-15","2015-01-07","Bizetstr","2015-01-13","2015-01-16",NA,NA
+"female","asian","Kelyn","Maranto",1,"Platz der Luftbruecke","2015-05-19","2015-06-29","Platz der Luftbruecke","2015-07-11","2015-09-10",NA,NA
+"male","caucasian","Aaron","Arendall",3,"Platz der Luftbruecke","2014-12-30","2015-02-17","Platz der Luftbruecke","2015-03-02","2015-03-14",NA,NA
+"male","hispanic","Trey","Munoz",7,"Oranienburger Str","2015-05-16","2015-07-04","Bizetstr","2015-07-18","2015-08-11",NA,NA
+"female","african","Tia","Busterna",26,"Platz der Luftbruecke","2014-12-20","2015-03-07","Bizetstr","2015-03-17","2015-03-30",NA,NA
+"male","caucasian","Jessie","Montgomery",24,"Platz der Luftbruecke","2015-05-01","2015-07-23","Bizetstr","2015-08-05","2015-09-17","2015-08-15","varicella"
+"female","african","Amira","Jackson",17,"Platz der Luftbruecke","2015-01-03","2015-02-14","Platz der Luftbruecke","2015-02-19","2015-04-14",NA,NA
+"male","asian","John","Van Zee",8,"Bizetstr","2015-08-19","2015-10-06","Buchholzerstr","2015-10-21","2015-12-28",NA,NA
+"female","hispanic","Lorrana","Orozco",23,"Bizetstr","2014-12-28","2015-02-13","Platz der Luftbruecke","2015-02-18","2015-05-03",NA,NA
+"female","arabic","Tasneem","al-Naqvi",15,"Platz der Luftbruecke","2015-04-18","2015-05-11","Buchholzerstr","2015-05-18","2015-07-14","2015-06-25","varicella"
+"male","asian","Max","Schultz",22,"Oranienburger Str","2014-12-09","2015-01-31","Platz der Luftbruecke","2015-02-12","2015-04-19",NA,NA
+"male","native-american","Rylee","Denning",16,"Oranienburger Str","2015-05-22","2015-06-18","Buchholzerstr","2015-06-29","2015-08-22",NA,NA
+"female","native-american","Olivia","Lehi",5,"Oranienburger Str","2014-12-25","2015-03-04","Oranienburger Str","2015-03-13","2015-05-08",NA,NA
+"male","caucasian","Thomas","Patton",24,"Platz der Luftbruecke","2015-10-06","2015-11-20","Platz der Luftbruecke","2015-11-26","2016-02-03",NA,NA
+"female","arabic","Saamyya","al-Karam",6,"Oranienburger Str","2015-01-06","2015-03-22","Buchholzerstr","2015-04-04","2015-06-28",NA,NA
+"female","native-american","Heather","Garbani",17,"Platz der Luftbruecke","2015-06-20","2015-07-09","Bizetstr","2015-07-24","2015-08-24",NA,NA
+"female","arabic","Shaimaaa","al-El-Sayed",21,"Oranienburger Str","2014-12-08","2015-01-30","Bizetstr","2015-02-06","2015-02-10",NA,NA
+"male","african","Terell","Kelly",5,"Bizetstr","2015-05-22","2015-08-07","Platz der Luftbruecke","2015-08-12","2015-10-01",NA,NA
+"female","arabic","Ameera","al-Azam",34,"Bizetstr","2014-12-17","2015-03-30","Oranienburger Str","2015-04-10","2015-06-16",NA,NA
+"female","african","Mariah","Thomas",8,"Platz der Luftbruecke","2015-04-09","2015-05-06","Buchholzerstr","2015-05-19","2015-07-11","2015-07-17","varicella"
+"male","asian","Erkhes","Le",31,"Platz der Luftbruecke","2014-12-05","2015-02-13","Platz der Luftbruecke","2015-02-19","2015-05-24","2015-06-15","varicella"
+"female","hispanic","Alicia","Pasillas",15,"Platz der Luftbruecke","2015-04-09","2015-07-05","Platz der Luftbruecke","2015-07-20","2015-09-20","2015-06-05","varicella"
+"male","hispanic","Chad","Deherrera",17,"Oranienburger Str","2015-03-17","2015-05-18","Oranienburger Str","2015-05-24","2015-07-17",NA,NA
+"male","hispanic","Antonio","Franco",18,"Platz der Luftbruecke","2015-07-26","2015-09-03","Platz der Luftbruecke","2015-09-08","2015-11-19",NA,NA
+"female","african","Azahrae","Corona Ibarra",9,"Platz der Luftbruecke","2014-12-01","2014-12-21","Bizetstr","2014-12-29","2015-02-07",NA,NA
+"male","arabic","Saamir","al-Rashid",33,"Oranienburger Str","2015-05-03","2015-06-09","Platz der Luftbruecke","2015-06-24","2015-07-04",NA,NA
+"female","asian","Victoria","Mora",1,"Bizetstr","2015-01-11","2015-03-20","Oranienburger Str","2015-04-04","2015-06-11",NA,NA
+"male","african","Taishawn","Pacheco",16,"Platz der Luftbruecke","2015-06-27","2015-09-21","Bizetstr","2015-09-29","2015-11-07",NA,NA
+"male","african","Timothy","Shepard",8,"Oranienburger Str","2014-11-04","2014-12-19","Bizetstr","2014-12-25","2015-03-14","2015-06-29","varicella"
+"male","caucasian","Garrett","Wells",15,"Oranienburger Str","2015-06-21","2015-09-13","Oranienburger Str","2015-09-23","2015-10-17",NA,NA
+"male","caucasian","Eric","Brothers",20,"Platz der Luftbruecke","2015-01-05","2015-03-23","Oranienburger Str","2015-04-02","2015-06-15","2015-05-25","varicella"
+"male","hispanic","Raynaldo","Gonzales",13,"Oranienburger Str","2015-05-09","2015-06-29","Buchholzerstr","2015-07-14","2015-09-17",NA,NA
+"female","asian","Victoria","Bilegsaikhan",12,"Buchholzerstr","2014-12-18","2015-02-05","Platz der Luftbruecke","2015-02-16","2015-03-31",NA,NA
+"male","caucasian","Jacob","Sharp",1,"Platz der Luftbruecke","2015-06-15","2015-08-12","Bizetstr","2015-08-19","2015-12-14",NA,NA
+"female","native-american","Tehya","Pillar",14,"Bizetstr","2015-05-20","2015-08-06","Bizetstr","2015-08-17","2015-10-14",NA,NA
+"female","asian","Victoria","Khom",28,"Oranienburger Str","2015-06-13","2015-09-06","Oranienburger Str","2015-09-21","2015-10-19","2015-05-28","varicella"
+"female","arabic","Afnaan","al-Guler",26,"Platz der Luftbruecke","2014-11-18","2015-01-14","Platz der Luftbruecke","2015-01-23","2015-02-22",NA,NA
+"female","arabic","Raaida","el-Hariri",2,"Platz der Luftbruecke","2015-06-10","2015-07-26","Platz der Luftbruecke","2015-08-08","2015-07-24",NA,NA
+"male","african","Diondre","Winn",33,"Platz der Luftbruecke","2015-01-23","2015-05-06","Bizetstr","2015-05-16","2015-07-02","2015-06-21","varicella"
+"female","native-american","Talea","Dilley",4,"Bizetstr","2015-08-04","2015-09-21","Bizetstr","2015-10-05","2015-11-27",NA,NA
+"female","asian","Farjana","Vanderpool",6,"Oranienburger Str","2014-12-12","2014-12-22","Platz der Luftbruecke","2014-12-30","2015-02-08",NA,NA
+"female","asian","Gurjot","Baker",2,"Platz der Luftbruecke","2015-06-21","2015-08-30","Oranienburger Str","2015-09-11","2015-11-03",NA,NA
+"male","asian","Zachary","Tan",13,"Oranienburger Str","2014-12-19","2015-02-05","Bizetstr","2015-02-17","2015-04-19",NA,NA
+"female","asian","Shahrazad","Kim",21,"Bizetstr","2015-08-05","2015-09-26","Oranienburger Str","2015-10-07","2015-11-30","2015-12-29","varicella"
+"female","caucasian","Billey","Williams",11,"Oranienburger Str","2015-01-26","2015-02-01","Oranienburger Str","2015-02-11","2015-04-10",NA,NA
+"female","native-american","Jasmine","Wilson",21,"Oranienburger Str","2015-07-11","2015-10-01","Buchholzerstr","2015-10-06","2015-11-30",NA,NA
+"male","african","Paul","Rindone Dodson",8,"Oranienburger Str","2015-02-14","2015-04-03","Oranienburger Str","2015-04-11","2015-05-17","2015-12-10","varicella"
+"female","asian","Miranda","Lam",14,"Oranienburger Str","2015-04-05","2015-06-12","Platz der Luftbruecke","2015-06-24","2015-08-15",NA,NA
+"male","african","Kyle","Williams",12,"Platz der Luftbruecke","2014-12-30","2015-01-25","Oranienburger Str","2015-02-05","2015-04-09",NA,NA
+"female","arabic","Sumbula","el-Majeed",19,"Oranienburger Str","2015-04-04","2015-05-21","Oranienburger Str","2015-05-26","2015-08-04",NA,NA
+"female","arabic","Mu'hsina","al-Meskin",18,"Platz der Luftbruecke","2014-11-22","2014-12-15","Platz der Luftbruecke","2014-12-28","2015-01-30",NA,NA
+"female","african","Sidney","Marquantte",5,"Oranienburger Str","2015-06-14","2015-07-24","Oranienburger Str","2015-08-07","2015-09-26",NA,NA
+"female","hispanic","Shantel","Shell",31,"Oranienburger Str","2015-01-14","2015-02-12","Platz der Luftbruecke","2015-02-19","2015-04-13",NA,NA
+"male","hispanic","Jose","Gonzales",18,"Platz der Luftbruecke","2015-04-16","2015-05-28","Platz der Luftbruecke","2015-06-04","2015-07-12","2015-07-05","varicella"
+"male","native-american","Tylor","Martinez",9,"Oranienburger Str","2015-01-02","2015-02-16","Oranienburger Str","2015-02-23","2015-05-10",NA,NA
+"male","arabic","Mastoor","al-Azam",29,"Platz der Luftbruecke","2015-05-06","2015-07-22","Oranienburger Str","2015-08-05","2015-10-14",NA,NA
+"female","caucasian","Alexandra","Davinroy",4,"Bizetstr","2015-02-28","2015-04-13","Bizetstr","2015-04-24","2015-06-21","2015-05-24","varicella"
+"female","african","Zakiya","Wilson",11,"Oranienburger Str","2015-05-07","2015-06-08","Oranienburger Str","2015-06-21","2015-07-31",NA,NA
+"male","african","Seiko","Armstrong",27,"Platz der Luftbruecke","2015-01-23","2015-01-29","Platz der Luftbruecke","2015-02-13","2015-04-18",NA,NA
+"female","caucasian","Jessa","Richardson",17,"Platz der Luftbruecke","2015-05-17","2015-06-28","Platz der Luftbruecke","2015-07-10","2015-09-02",NA,NA
+"female","asian","Allison","Bui",34,"Platz der Luftbruecke","2014-11-22","2015-01-05","Bizetstr","2015-01-19","2015-03-27",NA,NA
+"female","hispanic","Abigail","Tenorio",11,"Platz der Luftbruecke","2015-06-03","2015-08-04","Oranienburger Str","2015-08-17","2015-10-10",NA,NA
+"female","hispanic","Vanessa","Lovato",23,"Buchholzerstr","2014-11-25","2015-01-12","Bizetstr","2015-01-21","2015-05-06",NA,NA
+"female","hispanic","Jamie","Flores-Saenz",2,"Platz der Luftbruecke","2015-04-08","2015-05-16","Bizetstr","2015-05-26","2015-08-13","2015-08-04","varicella"
+"male","asian","Jimmy","Hinh",0,"Platz der Luftbruecke","2014-11-29","2015-02-22","Buchholzerstr","2015-03-01","2015-04-28",NA,NA
+"female","asian","Lily Clare","Lee",18,"Platz der Luftbruecke","2015-07-26","2015-10-06","Oranienburger Str","2015-10-11","2015-12-09",NA,NA
+"female","arabic","Huwaida","el-Rasul",12,"Platz der Luftbruecke","2015-01-15","2015-01-21","Oranienburger Str","2015-01-30","2015-02-20",NA,NA
+"male","hispanic","Caleb","Rios",16,"Oranienburger Str","2015-05-21","2015-06-13","Bizetstr","2015-06-22","2015-07-26",NA,NA
+"male","asian","Vincent","Gstalder",23,"Bizetstr","2015-01-03","2015-02-02","Platz der Luftbruecke","2015-02-07","2015-04-04",NA,NA
+"male","hispanic","Joshua","Garcia-Morales",22,"Oranienburger Str","2015-03-30","2015-03-30","Oranienburger Str","2015-04-12","2015-05-29",NA,NA
+"female","caucasian","Dominique","Lowe",11,"Bizetstr","2014-11-01","2014-12-27","Oranienburger Str","2015-01-03","2015-03-12",NA,NA
+"male","african","Duane","Thomas",7,"Oranienburger Str","2015-08-02","2015-09-16","Oranienburger Str","2015-09-26","2015-11-09",NA,NA
+"female","hispanic","Yvonne","Solano",15,"Platz der Luftbruecke","2015-01-14","2015-02-03","Platz der Luftbruecke","2015-02-12","2015-04-28",NA,NA
+"male","hispanic","Anthony","Herrera",14,"Bizetstr","2015-05-17","2015-07-22","Platz der Luftbruecke","2015-07-27","2015-10-08",NA,NA
+"female","hispanic","Karen","Carson",8,"Bizetstr","2014-10-31","2015-01-11","Bizetstr","2015-01-19","2015-03-01",NA,NA
+"male","native-american","Chandler","Alarid",17,"Bizetstr","2015-03-29","2015-04-15","Oranienburger Str","2015-04-29","2015-05-12",NA,NA
+"female","hispanic","Teresa","Vazquez",29,"Platz der Luftbruecke","2014-11-17","2014-10-29","Oranienburger Str","2014-11-13","2014-12-03",NA,NA
+"female","african","Brittani","Diakite",16,"Oranienburger Str","2015-06-02","2015-08-08","Buchholzerstr","2015-08-22","2015-10-18",NA,NA
+"female","asian","Callie","Vaughn",11,"Platz der Luftbruecke","2014-11-19","2015-01-19","Oranienburger Str","2015-01-26","2015-03-25",NA,NA
+"male","hispanic","Paul","Medina-Williams",20,"Oranienburger Str","2015-04-03","2015-06-02","Platz der Luftbruecke","2015-06-09","2015-05-31",NA,NA
+"male","caucasian","Ryan","Lendi",9,"Platz der Luftbruecke","2015-02-04","2015-03-24","Platz der Luftbruecke","2015-04-02","2015-03-04",NA,NA
+"male","arabic","Husaam","al-Miah",6,"Oranienburger Str","2015-05-03","2015-06-27","Oranienburger Str","2015-07-11","2015-09-06",NA,NA
+"male","native-american","Kenneth","Gutierrez",27,"Platz der Luftbruecke","2015-05-03","2015-06-27","Platz der Luftbruecke","2015-07-07","2015-10-15","2015-05-27","varicella"
+"female","asian","Eleanor","Prasad",14,"Platz der Luftbruecke","2015-05-29","2015-07-01","Platz der Luftbruecke","2015-07-13","2015-10-18","2015-12-11","varicella"
+"female","hispanic","Leticia","Zamora",16,"Bizetstr","2015-03-10","2015-05-15","Oranienburger Str","2015-05-24","2015-06-18","2015-07-07","varicella"
+"male","asian","Charlie","Wong",15,"Oranienburger Str","2015-08-03","2015-09-09","Oranienburger Str","2015-09-15","2015-10-28",NA,NA
+"male","native-american","Phoenix","Redfern",7,"Oranienburger Str","2014-12-29","2015-01-28","Oranienburger Str","2015-02-03","2015-02-14","2015-04-04","varicella"
+"male","hispanic","Duane","Sanchez Loepp",35,"Oranienburger Str","2015-08-05","2015-09-16","Platz der Luftbruecke","2015-09-24","2015-11-09",NA,NA
+"male","hispanic","Dennis","Souza",14,"Oranienburger Str","2015-01-02","2015-02-20","Oranienburger Str","2015-02-28","2015-04-07",NA,NA
+"male","caucasian","Huntor","Wertz",15,"Platz der Luftbruecke","2015-04-06","2015-05-29","Oranienburger Str","2015-06-03","2015-08-10","2015-06-17","varicella"
+"male","arabic","Zaidaan","el-Momin",21,"Bizetstr","2014-11-05","2014-12-05","Platz der Luftbruecke","2014-12-14","2015-01-08",NA,NA
+"male","arabic","Waatiq","el-Haque",18,"Platz der Luftbruecke","2015-04-13","2015-06-10","Bizetstr","2015-06-21","2015-08-22","2015-07-08","varicella"
+"female","asian","Brittany","Allen",13,"Oranienburger Str","2015-04-24","2015-06-22","Oranienburger Str","2015-07-06","2015-09-20",NA,NA
+"female","asian","Tammy","Littlefield",6,"Platz der Luftbruecke","2015-04-17","2015-08-11","Bizetstr","2015-08-22","2015-09-29","2015-06-30","varicella"
+"female","arabic","Sameera","al-Shaheen",13,"Oranienburger Str","2015-01-13","2015-04-13","Bizetstr","2015-04-23","2015-07-02",NA,NA
+"female","arabic","Tayyiba","el-Vohra",27,"Platz der Luftbruecke","2015-05-02","2015-07-10","Bizetstr","2015-07-22","2015-10-04","2015-07-01","varicella"
+"female","african","Tiana","Williams",10,"Buchholzerstr","2015-02-02","2015-03-07","Oranienburger Str","2015-03-22","2015-06-10",NA,NA
+"male","african","Ahmed","Lindsey",27,"Oranienburger Str","2015-08-01","2015-11-01","Buchholzerstr","2015-11-12","2016-01-17","2015-10-06","varicella"
+"male","native-american","Navro","Roberts",6,"Bizetstr","2014-12-31","2015-01-06","Platz der Luftbruecke","2015-01-17","2015-01-12",NA,NA
+"male","african","Tommy","Woods",33,"Platz der Luftbruecke","2015-04-01","2015-05-06","Oranienburger Str","2015-05-21","2015-09-10","2015-06-15","varicella"
+"male","native-american","Raul","Burback",8,"Platz der Luftbruecke","2014-11-10","2015-03-03","Oranienburger Str","2015-03-15","2015-07-10","2015-08-02","varicella"
+"male","native-american","Antonio","Mulder",13,"Oranienburger Str","2015-08-03","2015-09-23","Oranienburger Str","2015-10-08","2015-11-08","2015-07-26","varicella"
+"male","hispanic","David","Vasquez",17,"Bizetstr","2015-01-23","2015-03-28","Platz der Luftbruecke","2015-04-04","2015-06-10",NA,NA
+"female","native-american","Raeven","Absher",17,"Bizetstr","2015-07-24","2015-09-15","Platz der Luftbruecke","2015-09-25","2015-11-28",NA,NA
+"male","arabic","Taahir","el-Murad",21,"Oranienburger Str","2014-11-20","2015-01-13","Platz der Luftbruecke","2015-01-19","2015-03-18",NA,NA
+"female","native-american","Stevie","Fields",18,"Oranienburger Str","2015-08-24","2015-09-24","Oranienburger Str","2015-09-29","2015-10-22",NA,NA
+"male","arabic","Raamiz","el-Abdo",14,"Buchholzerstr","2014-12-02","2015-02-11","Oranienburger Str","2015-02-17","2015-03-28",NA,NA
+"male","arabic","Muhyddeen","el-Muhammed",7,"Platz der Luftbruecke","2015-06-13","2015-10-09","Oranienburger Str","2015-10-23","2015-11-04",NA,NA
+"male","asian","Rick","Maumau",21,"Platz der Luftbruecke","2015-01-12","2015-02-15","Bizetstr","2015-02-20","2015-04-07",NA,NA
+"female","asian","Morgan","Sun",15,"Buchholzerstr","2015-04-27","2015-04-26","Platz der Luftbruecke","2015-05-02","2015-07-10",NA,NA
+"male","native-american","David","Taylor",30,"Oranienburger Str","2014-12-23","2015-02-09","Bizetstr","2015-02-16","2015-04-25",NA,NA
+"female","hispanic","Stephanie","Herrera",16,"Platz der Luftbruecke","2015-04-22","2015-05-29","Platz der Luftbruecke","2015-06-10","2015-08-19","2015-05-28","varicella"
+"male","arabic","Faraj","el-Zadeh",19,"Bizetstr","2015-02-06","2015-04-03","Buchholzerstr","2015-04-10","2015-05-18",NA,NA
+"female","caucasian","Alyssa","Field",13,"Bizetstr","2015-05-14","2015-04-26","Oranienburger Str","2015-05-04","2015-06-17",NA,NA
+"male","asian","Jared","Archer",24,"Platz der Luftbruecke","2014-12-28","2015-02-26","Platz der Luftbruecke","2015-03-06","2015-05-09","2015-05-29","varicella"
+"female","arabic","Azeema","al-Nazir",4,"Oranienburger Str","2015-05-06","2015-07-21","Oranienburger Str","2015-08-03","2015-09-01",NA,NA
+"male","native-american","Dyllon","Tahlo",3,"Bizetstr","2015-01-20","2015-03-11","Platz der Luftbruecke","2015-03-26","2015-06-10",NA,NA
+"female","african","Lakisha","Pierce",11,"Platz der Luftbruecke","2015-03-29","2015-05-28","Oranienburger Str","2015-06-05","2015-08-04","2015-06-19","varicella"
+"male","native-american","Lawrence","Davis",8,"Platz der Luftbruecke","2014-11-12","2014-12-20","Platz der Luftbruecke","2014-12-25","2015-01-11",NA,NA
+"male","arabic","Sharaf","el-Yousef",2,"Platz der Luftbruecke","2015-05-16","2015-07-09","Oranienburger Str","2015-07-15","2015-10-10",NA,NA
+"male","caucasian","Alexander","Wharry",23,"Bizetstr","2015-01-19","2015-02-20","Oranienburger Str","2015-02-25","2015-04-06",NA,NA
+"male","caucasian","James","Forbes",25,"Oranienburger Str","2015-04-15","2015-05-16","Platz der Luftbruecke","2015-05-25","2015-09-11",NA,NA
+"female","native-american","Shalynn","Zheng",5,"Oranienburger Str","2014-12-05","2014-12-29","Platz der Luftbruecke","2015-01-12","2015-02-17",NA,NA
+"male","asian","Anthony","Wong",29,"Bizetstr","2015-07-27","2015-09-18","Bizetstr","2015-09-25","2015-12-02",NA,NA
+"male","hispanic","Justin","Lucero",22,"Oranienburger Str","2015-05-08","2015-07-31","Platz der Luftbruecke","2015-08-15","2015-11-28",NA,NA
+"female","caucasian","Emily","Hopp",14,"Oranienburger Str","2015-05-02","2015-06-04","Platz der Luftbruecke","2015-06-17","2015-08-22",NA,NA
+"female","arabic","Nuha","al-Rehman",22,"Bizetstr","2014-12-29","2015-03-16","Oranienburger Str","2015-03-29","2015-05-29",NA,NA
+"male","caucasian","Jordan","Fearing",9,"Platz der Luftbruecke","2015-05-15","2015-07-12","Oranienburger Str","2015-07-25","2015-09-03",NA,NA
+"male","caucasian","Ryan","Schafer",33,"Platz der Luftbruecke","2014-11-16","2015-01-18","Bizetstr","2015-01-26","2015-02-19",NA,NA
+"female","asian","Rachel","Fazli",19,"Platz der Luftbruecke","2015-05-09","2015-08-19","Bizetstr","2015-08-29","2015-08-27",NA,NA
+"female","african","Devon","Hayes-Joshua",31,"Buchholzerstr","2014-11-23","2015-02-24","Oranienburger Str","2015-03-10","2015-04-10",NA,NA
+"female","asian","Marlyssa","Blitzer",5,"Bizetstr","2015-04-21","2015-05-16","Oranienburger Str","2015-05-23","2015-06-29",NA,NA
+"female","asian","Jenny","Gibson",5,"Oranienburger Str","2014-12-29","2015-03-08","Oranienburger Str","2015-03-21","2015-04-14",NA,NA
+"male","native-american","Jacob","Atkinson",15,"Oranienburger Str","2015-07-01","2015-08-30","Oranienburger Str","2015-09-07","2015-10-14",NA,NA
+"male","caucasian","Joseph","Loveless",3,"Platz der Luftbruecke","2015-03-30","2015-05-31","Oranienburger Str","2015-06-13","2015-07-19","2015-07-31","varicella"
+"female","native-american","April","Smith",33,"Oranienburger Str","2015-03-28","2015-05-23","Oranienburger Str","2015-06-04","2015-08-08",NA,NA
+"male","arabic","Izzat","el-Younis",31,"Oranienburger Str","2015-01-23","2015-02-18","Oranienburger Str","2015-02-26","2015-04-17",NA,NA
+"female","african","Rainey","Brown",1,"Platz der Luftbruecke","2015-04-18","2015-08-13","Bizetstr","2015-08-25","2015-09-22","2015-06-10","varicella"
+"male","african","Tariff","Hayes",30,"Oranienburger Str","2015-02-28","2015-04-15","Platz der Luftbruecke","2015-04-26","2015-04-16",NA,NA
+"male","asian","Alec","Cha",19,"Oranienburger Str","2015-05-06","2015-07-04","Oranienburger Str","2015-07-16","2015-09-08","2015-12-21","varicella"
+"male","arabic","Abdul Majeed","el-Mian",20,"Oranienburger Str","2014-11-15","2015-01-10","Platz der Luftbruecke","2015-01-17","2015-03-08",NA,NA
+"male","asian","Sami","Xiang",24,"Platz der Luftbruecke","2015-08-13","2015-10-06","Bizetstr","2015-10-14","2015-12-17",NA,NA
+"female","arabic","Wadha","el-Abdalla",20,"Platz der Luftbruecke","2014-12-02","2014-12-21","Oranienburger Str","2015-01-01","2015-02-26",NA,NA
+"female","arabic","Shaahida","el-Hamid",34,"Oranienburger Str","2015-04-19","2015-06-07","Oranienburger Str","2015-06-22","2015-08-10",NA,NA
+"female","caucasian","Helena","Wantuck",10,"Oranienburger Str","2015-01-31","2015-03-20","Oranienburger Str","2015-03-27","2015-04-23",NA,NA
+"male","asian","Tias","Moy",12,"Platz der Luftbruecke","2015-04-22","2015-06-28","Buchholzerstr","2015-07-03","2015-08-30","2015-07-28","varicella"
+"male","arabic","Lutfi","al-Shehadeh",22,"Platz der Luftbruecke","2014-12-18","2015-02-26","Platz der Luftbruecke","2015-03-10","2015-05-18","2015-07-25","varicella"
+"female","asian","Alix","Hiraoka",19,"Oranienburger Str","2015-05-01","2015-07-22","Platz der Luftbruecke","2015-08-06","2015-09-04",NA,NA
+"male","hispanic","Hiro","Suarez",12,"Oranienburger Str","2015-01-06","2015-03-19","Platz der Luftbruecke","2015-03-31","2015-06-14",NA,NA
+"male","african","Andre","Bufkin",31,"Buchholzerstr","2015-05-18","2015-07-21","Oranienburger Str","2015-07-28","2015-09-04",NA,NA
+"male","native-american","Dean","Mahnken",33,"Oranienburger Str","2015-02-11","2015-03-30","Oranienburger Str","2015-04-06","2015-06-22","2015-07-12","varicella"
+"female","caucasian","Carlee","Dube",24,"Platz der Luftbruecke","2015-04-19","2015-06-04","Oranienburger Str","2015-06-13","2015-07-12","2015-08-14","varicella"
+"female","hispanic","Elizabeth","Marin",22,"Bizetstr","2015-02-14","2015-03-27","Bizetstr","2015-04-02","2015-06-21",NA,NA
+"female","arabic","Najma","el-Amini",9,"Oranienburger Str","2015-05-09","2015-07-09","Platz der Luftbruecke","2015-07-21","2015-10-08",NA,NA
+"female","caucasian","Taylor","Tidwell",5,"Oranienburger Str","2014-11-14","2015-01-28","Oranienburger Str","2015-02-11","2015-04-09",NA,NA
+"female","arabic","Awaatif","al-Wahba",27,"Oranienburger Str","2015-04-08","2015-06-04","Oranienburger Str","2015-06-18","2015-08-05",NA,NA
+"male","arabic","Jumail","el-Baksh",24,"Platz der Luftbruecke","2015-02-05","2015-03-23","Oranienburger Str","2015-04-05","2015-06-10","2015-07-28","varicella"
+"male","hispanic","Gregorio","Tellez",1,"Platz der Luftbruecke","2015-05-02","2015-07-31","Platz der Luftbruecke","2015-08-08","2015-09-01","2015-07-08","varicella"
+"male","asian","Alex","Du",2,"Oranienburger Str","2015-04-12","2015-07-07","Platz der Luftbruecke","2015-07-22","2015-08-18",NA,NA
+"female","caucasian","Leah","Martin",20,"Oranienburger Str","2015-05-27","2015-08-02","Oranienburger Str","2015-08-12","2015-10-17",NA,NA
+"female","arabic","Nameera","el-Dia",16,"Platz der Luftbruecke","2014-10-29","2015-01-13","Platz der Luftbruecke","2015-01-26","2015-03-12",NA,NA
+"female","native-american","Tenai","Bailey",20,"Platz der Luftbruecke","2015-04-06","2015-05-25","Bizetstr","2015-06-06","2015-06-13","2015-05-31","varicella"
+"female","asian","Angelica","Dutkin",16,"Platz der Luftbruecke","2014-12-07","2015-02-04","Platz der Luftbruecke","2015-02-11","2015-02-05",NA,NA
+"male","arabic","Jareer","el-Zaki",17,"Platz der Luftbruecke","2015-06-15","2015-08-01","Oranienburger Str","2015-08-13","2015-10-27",NA,NA
+"female","arabic","Khaalida","el-Halim",28,"Platz der Luftbruecke","2014-11-16","2015-01-27","Bizetstr","2015-02-02","2015-03-14",NA,NA
+"female","asian","Jenny","San",24,"Oranienburger Str","2015-07-11","2015-08-08","Buchholzerstr","2015-08-22","2015-08-13",NA,NA
+"male","hispanic","Jorge","Laydon",7,"Oranienburger Str","2015-01-28","2015-04-06","Oranienburger Str","2015-04-20","2015-06-14",NA,NA
+"male","caucasian","Nicholas","Langley",14,"Oranienburger Str","2015-05-09","2015-07-20","Platz der Luftbruecke","2015-07-27","2015-09-29","2015-04-22","varicella"
+"female","caucasian","Alison","Decaro",1,"Oranienburger Str","2014-10-26","2015-01-26","Buchholzerstr","2015-02-05","2015-04-13",NA,NA
+"male","asian","Kyle","Chhay",29,"Platz der Luftbruecke","2015-06-12","2015-07-21","Platz der Luftbruecke","2015-07-29","2015-08-25",NA,NA
+"male","native-american","Iaasic","Ortega",29,"Oranienburger Str","2015-01-15","2015-02-04","Bizetstr","2015-02-18","2015-04-20",NA,NA
+"female","african","Latisha","Washington",16,"Platz der Luftbruecke","2015-05-30","2015-05-10","Platz der Luftbruecke","2015-05-19","2015-06-25",NA,NA
+"female","african","Jordyn","Johnson",12,"Bizetstr","2014-12-23","2015-01-04","Platz der Luftbruecke","2015-01-12","2015-03-20","2015-09-22","varicella"
+"female","asian","Katie","Lor",1,"Oranienburger Str","2015-07-18","2015-08-26","Oranienburger Str","2015-09-07","2015-09-05",NA,NA
+"male","asian","Josiah","Cao",20,"Platz der Luftbruecke","2014-11-14","2015-01-07","Platz der Luftbruecke","2015-01-12","2015-01-19",NA,NA
+"female","native-american","Leslie","Clark",28,"Oranienburger Str","2015-04-12","2015-05-20","Platz der Luftbruecke","2015-05-28","2015-07-30",NA,NA
+"female","arabic","Naseeba","el-Hosein",34,"Buchholzerstr","2015-03-07","2015-06-27","Oranienburger Str","2015-07-05","2015-07-30",NA,NA
+"female","hispanic","Jasmine","Alcocer-Soto",26,"Oranienburger Str","2015-06-04","2015-08-21","Platz der Luftbruecke","2015-08-26","2015-12-04",NA,NA
+"female","african","Tyla","Mayes",33,"Platz der Luftbruecke","2014-11-17","2014-10-29","Platz der Luftbruecke","2014-11-06","2014-12-24",NA,NA
+"male","arabic","Haatim","al-Mian",7,"Platz der Luftbruecke","2015-08-07","2015-10-04","Bizetstr","2015-10-13","2015-11-26",NA,NA
+"female","caucasian","Elizabeth","Arushanov",30,"Buchholzerstr","2014-11-09","2014-12-01","Oranienburger Str","2014-12-06","2015-01-23",NA,NA
+"male","hispanic","Drake","Martinez",14,"Oranienburger Str","2015-08-09","2015-10-17","Platz der Luftbruecke","2015-10-28","2015-12-21","2015-05-22","varicella"
+"female","arabic","Saajida","el-Shaheen",10,"Oranienburger Str","2014-12-29","2015-03-03","Platz der Luftbruecke","2015-03-12","2015-05-27","2015-08-03","varicella"
+"male","hispanic","Abel","Medina",6,"Platz der Luftbruecke","2015-04-01","2015-05-24","Oranienburger Str","2015-06-06","2015-06-27","2015-06-29","varicella"
+"male","native-american","John","Maes",6,"Oranienburger Str","2014-11-28","2015-02-20","Oranienburger Str","2015-03-03","2015-06-17","2015-06-26","varicella"
+"female","arabic","Amatullah","al-Ebrahimi",14,"Oranienburger Str","2015-05-21","2015-06-26","Platz der Luftbruecke","2015-07-01","2015-08-06",NA,NA
+"female","african","Camille","Guyton",9,"Platz der Luftbruecke","2015-02-21","2015-04-05","Platz der Luftbruecke","2015-04-19","2015-05-28","2015-06-21","varicella"
+"female","african","Nydia","Hamilton",30,"Bizetstr","2015-05-07","2015-06-21","Platz der Luftbruecke","2015-06-28","2015-08-14",NA,NA
+"male","african","Freddy","Dixon",26,"Oranienburger Str","2015-01-09","2015-03-19","Bizetstr","2015-04-02","2015-05-20",NA,NA
+"female","arabic","Jameela","el-Habib",31,"Platz der Luftbruecke","2015-03-30","2015-05-17","Bizetstr","2015-05-31","2015-06-07","2015-06-23","varicella"
+"female","arabic","Sahheeda","al-Saleh",29,"Oranienburger Str","2015-03-02","2015-05-13","Oranienburger Str","2015-05-20","2015-07-25",NA,NA
+"male","african","Elisha","Young",17,"Oranienburger Str","2015-05-09","2015-08-16","Platz der Luftbruecke","2015-08-21","2015-10-18","2015-09-26","varicella"
+"male","hispanic","Sean","Collins",22,"Platz der Luftbruecke","2014-12-30","2015-03-27","Oranienburger Str","2015-04-04","2015-05-29","2015-05-31","varicella"
+"female","hispanic","Ashlan","Armijo",6,"Oranienburger Str","2015-07-22","2015-10-06","Oranienburger Str","2015-10-19","2016-01-05",NA,NA
+"female","caucasian","Amanda","Limstrom",25,"Platz der Luftbruecke","2015-01-19","2015-02-06","Platz der Luftbruecke","2015-02-21","2015-04-06",NA,NA
+"female","arabic","Shajee'a","al-Sharifi",4,"Platz der Luftbruecke","2015-05-25","2015-07-06","Platz der Luftbruecke","2015-07-18","2015-11-13",NA,NA
+"female","hispanic","Jennifer","Gutierrez",9,"Oranienburger Str","2014-12-06","2015-01-23","Bizetstr","2015-01-29","2015-01-27",NA,NA
+"female","african","Kalole","Jenkins",25,"Platz der Luftbruecke","2015-04-27","2015-06-22","Platz der Luftbruecke","2015-06-29","2015-08-24","2015-07-08","varicella"
+"male","caucasian","Travis","Cunningham",9,"Platz der Luftbruecke","2014-12-24","2014-12-19","Platz der Luftbruecke","2014-12-31","2015-03-28",NA,NA
+"male","caucasian","Brent","Moore",20,"Platz der Luftbruecke","2015-04-15","2015-07-06","Oranienburger Str","2015-07-17","2015-07-24","2015-06-19","varicella"
+"female","caucasian","Brandi","Shaffer",29,"Platz der Luftbruecke","2014-11-06","2015-01-22","Buchholzerstr","2015-01-30","2015-02-20",NA,NA
+"male","caucasian","Connor","Krollpfeiffer",14,"Oranienburger Str","2015-04-23","2015-06-15","Oranienburger Str","2015-06-20","2015-08-22",NA,NA
+"male","arabic","Ubaida","al-Shaban",34,"Platz der Luftbruecke","2015-01-28","2015-03-30","Platz der Luftbruecke","2015-04-12","2015-07-05","2015-07-24","varicella"
+"female","caucasian","Olivia","Duffy-Webb",32,"Platz der Luftbruecke","2015-08-30","2015-10-07","Platz der Luftbruecke","2015-10-17","2015-12-04",NA,NA
+"male","hispanic","Dakota","Sanchez Clemente",20,"Platz der Luftbruecke","2015-01-13","2015-01-15","Bizetstr","2015-01-26","2015-03-26",NA,NA
+"male","african","Jamaree","Bradish Moody",14,"Oranienburger Str","2015-06-18","2015-09-22","Oranienburger Str","2015-10-04","2015-12-08",NA,NA
+"female","african","Kaleisha","Prejean",29,"Platz der Luftbruecke","2014-12-26","2015-01-04","Platz der Luftbruecke","2015-01-17","2015-02-14",NA,NA
+"female","african","Rewina","Tyars",32,"Platz der Luftbruecke","2015-04-23","2015-05-31","Platz der Luftbruecke","2015-06-12","2015-08-19","2015-06-29","varicella"
+"male","asian","Jayme Gwynn","Nanpei",32,"Oranienburger Str","2014-12-23","2015-02-06","Oranienburger Str","2015-02-17","2015-04-11",NA,NA
+"female","hispanic","Elisa","Londono Pardo",8,"Platz der Luftbruecke","2015-06-04","2015-07-12","Buchholzerstr","2015-07-20","2015-08-24",NA,NA
+"male","arabic","Nizaar","el-Bey",15,"Oranienburger Str","2014-11-29","2014-12-28","Oranienburger Str","2015-01-11","2015-03-18",NA,NA
+"male","african","Dazaun","Joseph",20,"Oranienburger Str","2015-04-20","2015-06-13","Oranienburger Str","2015-06-23","2015-07-31",NA,NA
+"female","native-american","Jasmine","Mcclaskey",10,"Buchholzerstr","2015-03-28","2015-04-08","Platz der Luftbruecke","2015-04-15","2015-07-03","2015-12-31","varicella"
+"female","hispanic","Maria","Kile",17,"Bizetstr","2015-05-02","2015-06-27","Platz der Luftbruecke","2015-07-10","2015-09-08",NA,NA
+"female","hispanic","Alejandra","Baca",15,"Bizetstr","2014-11-29","2015-02-23","Platz der Luftbruecke","2015-02-28","2015-05-09","2015-11-07","varicella"
+"male","asian","Zachery","Jalilfar",3,"Bizetstr","2015-05-10","2015-07-03","Platz der Luftbruecke","2015-07-14","2015-10-12",NA,NA
+"female","caucasian","Jennifer","Smith",10,"Platz der Luftbruecke","2014-11-26","2015-01-08","Buchholzerstr","2015-01-21","2015-02-27",NA,NA
+"female","hispanic","Arlene","Anchondo",2,"Bizetstr","2015-07-31","2015-10-12","Bizetstr","2015-10-24","2015-12-22",NA,NA
+"female","asian","Devin","Whittaker",15,"Platz der Luftbruecke","2015-01-13","2015-03-16","Platz der Luftbruecke","2015-03-23","2015-04-15",NA,NA
+"female","arabic","Kifaaya","el-Arif",15,"Oranienburger Str","2015-04-14","2015-06-11","Oranienburger Str","2015-06-17","2015-07-07","2015-05-23","varicella"
+"male","hispanic","William","Medina Castillo",14,"Bizetstr","2015-02-22","2015-04-11","Platz der Luftbruecke","2015-04-24","2015-06-28",NA,NA
+"female","native-american","Lynn","Gonzales",26,"Oranienburger Str","2015-08-19","2015-10-14","Platz der Luftbruecke","2015-10-24","2016-01-11","2015-10-03","varicella"
+"female","african","Alicia","Keller",20,"Platz der Luftbruecke","2015-01-02","2015-02-17","Oranienburger Str","2015-02-25","2015-04-04",NA,NA
+"male","african","Keith","Gant",6,"Platz der Luftbruecke","2015-04-20","2015-05-13","Bizetstr","2015-05-28","2015-07-31","2015-07-10","varicella"
+"male","arabic","Aakif","el-Fawaz",3,"Platz der Luftbruecke","2014-12-18","2015-02-11","Bizetstr","2015-02-26","2015-05-10","2015-06-19","varicella"
+"female","hispanic","Amber","Carrisales",27,"Buchholzerstr","2015-05-10","2015-06-12","Oranienburger Str","2015-06-21","2015-08-28",NA,NA
+"male","hispanic","Brandon","Trujillo",24,"Platz der Luftbruecke","2015-02-03","2015-03-15","Oranienburger Str","2015-03-25","2015-05-27","2015-06-09","varicella"
+"female","arabic","Naqiyya","el-Abid",31,"Oranienburger Str","2015-04-17","2015-06-11","Buchholzerstr","2015-06-18","2015-08-17",NA,NA
+"female","arabic","Safaaa","al-Radwan",4,"Platz der Luftbruecke","2015-01-05","2015-03-02","Buchholzerstr","2015-03-08","2015-04-07",NA,NA
+"female","arabic","Hamda","el-Baddour",9,"Platz der Luftbruecke","2015-06-03","2015-09-10","Buchholzerstr","2015-09-16","2015-11-20",NA,NA
+"male","asian","Diego","Oliva",27,"Oranienburger Str","2014-11-24","2015-01-16","Oranienburger Str","2015-01-31","2015-04-20",NA,NA
+"male","african","Keshawn","Robinson",1,"Oranienburger Str","2015-05-05","2015-08-17","Bizetstr","2015-08-26","2015-10-31",NA,NA
+"male","arabic","Shameem","el-Haider",7,"Bizetstr","2015-02-11","2015-05-15","Bizetstr","2015-05-27","2015-08-10",NA,NA
+"female","african","Alicia","Mccray",33,"Bizetstr","2015-06-05","2015-07-21","Platz der Luftbruecke","2015-07-29","2015-09-10",NA,NA
+"male","caucasian","Cody","Crotty",5,"Oranienburger Str","2014-11-18","2015-01-25","Platz der Luftbruecke","2015-02-04","2015-03-16",NA,NA
+"male","hispanic","Ricky","Lopez",31,"Oranienburger Str","2015-04-24","2015-06-23","Oranienburger Str","2015-07-02","2015-09-10",NA,NA
+"male","arabic","Safar","el-Qazi",33,"Oranienburger Str","2014-12-11","2015-02-07","Oranienburger Str","2015-02-12","2015-05-19",NA,NA
+"male","caucasian","Jordan","Phipps",33,"Platz der Luftbruecke","2015-05-31","2015-07-21","Oranienburger Str","2015-07-27","2015-09-14",NA,NA
+"male","african","Davounte","Karg",12,"Platz der Luftbruecke","2014-12-18","2015-01-13","Oranienburger Str","2015-01-26","2015-03-19",NA,NA
+"female","caucasian","Robyn","Cheney",2,"Platz der Luftbruecke","2015-04-10","2015-05-28","Oranienburger Str","2015-06-12","2015-07-02","2015-06-19","varicella"
+"female","native-american","Taylor","Lynn",14,"Platz der Luftbruecke","2014-12-19","2015-01-25","Bizetstr","2015-02-04","2015-04-13",NA,NA
+"male","native-american","Bryan","Hoots",1,"Platz der Luftbruecke","2015-05-28","2015-07-30","Bizetstr","2015-08-05","2015-10-02",NA,NA
+"female","asian","An","Simion",1,"Platz der Luftbruecke","2015-01-06","2015-02-28","Platz der Luftbruecke","2015-03-10","2015-04-19",NA,NA
+"female","african","Brittney","Obinnah",20,"Platz der Luftbruecke","2015-04-09","2015-05-26","Oranienburger Str","2015-06-03","2015-07-14","2015-07-16","varicella"
+"female","arabic","Saamyya","al-Shabazz",15,"Platz der Luftbruecke","2014-11-18","2015-02-24","Platz der Luftbruecke","2015-03-03","2015-03-25",NA,NA
+"female","hispanic","Tanya","Diaz",22,"Buchholzerstr","2015-07-21","2015-09-26","Oranienburger Str","2015-10-07","2015-12-06","2015-10-11","varicella"
+"male","caucasian","John","Salles",19,"Platz der Luftbruecke","2014-11-19","2015-01-11","Oranienburger Str","2015-01-26","2015-04-01",NA,NA
+"male","native-american","Erminio","Black",21,"Bizetstr","2015-07-09","2015-10-01","Oranienburger Str","2015-10-08","2015-10-14",NA,NA
+"male","hispanic","Brendan","Marin-Lopez",19,"Oranienburger Str","2014-12-03","2014-12-25","Oranienburger Str","2015-01-01","2015-04-09",NA,NA
+"male","hispanic","Ismael","Castrejon-Reza",19,"Buchholzerstr","2015-05-06","2015-07-03","Platz der Luftbruecke","2015-07-15","2015-07-29",NA,NA
+"male","asian","Austin","Eberle",34,"Oranienburger Str","2015-02-16","2015-04-10","Platz der Luftbruecke","2015-04-24","2015-07-07",NA,NA
+"male","hispanic","Alejandro","Encinias",28,"Platz der Luftbruecke","2015-08-24","2015-11-14","Oranienburger Str","2015-11-19","2016-02-22",NA,NA
+"male","arabic","Umair","al-Akhtar",18,"Oranienburger Str","2014-12-03","2014-12-26","Oranienburger Str","2014-12-31","2015-03-20",NA,NA
+"female","african","Keleka","Duarte",1,"Bizetstr","2015-09-08","2015-10-30","Platz der Luftbruecke","2015-11-10","2016-01-07",NA,NA
+"female","african","Ischara","Sparks Webb",33,"Platz der Luftbruecke","2014-11-23","2015-01-08","Oranienburger Str","2015-01-17","2015-01-08",NA,NA
+"male","african","Brandon","Shorty",32,"Oranienburger Str","2015-06-10","2015-07-01","Platz der Luftbruecke","2015-07-12","2015-08-06",NA,NA
+"male","arabic","Zayyaan","al-Salameh",6,"Platz der Luftbruecke","2015-01-09","2015-03-31","Platz der Luftbruecke","2015-04-14","2015-06-07","2015-07-13","varicella"
+"female","african","Arianna","Robinson",23,"Bizetstr","2015-07-12","2015-10-15","Bizetstr","2015-10-22","2015-12-22",NA,NA
+"male","arabic","Kaleem","el-Ahsan",30,"Oranienburger Str","2014-10-28","2014-11-19","Platz der Luftbruecke","2014-11-28","2015-03-06",NA,NA
+"female","hispanic","Gissel","Borrego",26,"Oranienburger Str","2015-04-30","2015-07-07","Platz der Luftbruecke","2015-07-22","2015-08-18",NA,NA
+"male","caucasian","Alexander","Krug",22,"Oranienburger Str","2014-11-22","2014-11-23","Platz der Luftbruecke","2014-12-07","2015-01-21",NA,NA
+"female","caucasian","Olivia","Anderson",13,"Oranienburger Str","2015-06-09","2015-08-28","Platz der Luftbruecke","2015-09-10","2015-11-17",NA,NA
+"male","african","Justin","Starks III",27,"Platz der Luftbruecke","2015-04-10","2015-07-05","Platz der Luftbruecke","2015-07-20","2015-09-02","2015-05-25","varicella"
+"male","arabic","Faadi","al-Rasheed",21,"Bizetstr","2015-04-11","2015-06-03","Platz der Luftbruecke","2015-06-15","2015-08-03",NA,NA
+"male","asian","Derek","Son",17,"Platz der Luftbruecke","2015-02-21","2015-04-21","Oranienburger Str","2015-05-01","2015-07-30","2015-08-12","varicella"
+"female","hispanic","Domonique","Nanez",4,"Platz der Luftbruecke","2015-04-12","2015-05-12","Oranienburger Str","2015-05-20","2015-08-08","2015-07-30","varicella"
+"female","caucasian","Zayne","London",17,"Bizetstr","2015-04-05","2015-05-26","Platz der Luftbruecke","2015-05-31","2015-07-13",NA,NA
+"female","caucasian","Sarah","Murphy",0,"Platz der Luftbruecke","2015-04-12","2015-07-08","Platz der Luftbruecke","2015-07-15","2015-09-07","2015-07-22","varicella"
+"male","arabic","Neeshaan","al-Popal",25,"Bizetstr","2014-11-24","2015-02-16","Platz der Luftbruecke","2015-02-25","2015-04-21",NA,NA
+"female","asian","Lariza","Nguyen",27,"Bizetstr","2015-05-12","2015-06-09","Oranienburger Str","2015-06-16","2015-09-04",NA,NA
+"male","arabic","Mashal","al-Amen",22,"Bizetstr","2014-11-01","2015-01-21","Oranienburger Str","2015-01-28","2015-04-07",NA,NA
+"female","native-american","Mahasin","Jones",22,"Oranienburger Str","2015-04-28","2015-05-29","Oranienburger Str","2015-06-11","2015-08-24",NA,NA
+"male","hispanic","Guillermo","Carbajal Cruz",19,"Oranienburger Str","2015-03-04","2015-05-02","Platz der Luftbruecke","2015-05-16","2015-07-08",NA,NA
+"female","native-american","Isabella","Young",7,"Platz der Luftbruecke","2015-04-05","2015-05-26","Oranienburger Str","2015-06-09","2015-08-16","2015-06-08","varicella"
+"male","native-american","Jonathan","Dellacroce",8,"Bizetstr","2015-01-03","2015-02-12","Oranienburger Str","2015-02-21","2015-05-27",NA,NA
+"female","hispanic","Briana","Valles",24,"Buchholzerstr","2015-06-21","2015-08-01","Oranienburger Str","2015-08-14","2015-10-14",NA,NA
+"male","arabic","Maajid","el-Momin",30,"Oranienburger Str","2015-02-17","2015-04-30","Platz der Luftbruecke","2015-05-10","2015-06-24",NA,NA
+"female","hispanic","Marisa","Benitez-Reyes",29,"Platz der Luftbruecke","2015-03-20","2015-05-25","Oranienburger Str","2015-05-30","2015-06-19","2015-06-07","varicella"
+"female","hispanic","Brittany","Olivarez",28,"Oranienburger Str","2015-02-24","2015-04-30","Oranienburger Str","2015-05-09","2015-08-15",NA,NA
+"male","african","Christian","Moham",20,"Platz der Luftbruecke","2015-04-08","2015-06-15","Platz der Luftbruecke","2015-06-30","2015-08-05","2015-10-19","varicella"
+"female","arabic","Ramziyya","el-Nasir",9,"Platz der Luftbruecke","2014-12-08","2015-01-20","Platz der Luftbruecke","2015-01-31","2015-04-06",NA,NA
+"male","native-american","Kenneth","Shumock",5,"Bizetstr","2015-04-13","2015-05-24","Oranienburger Str","2015-06-08","2015-07-02",NA,NA
+"male","asian","Don","Kavanagh",21,"Bizetstr","2014-11-22","2014-12-05","Oranienburger Str","2014-12-11","2015-02-12",NA,NA
+"female","asian","Sanna","Love",2,"Oranienburger Str","2015-04-07","2015-05-07","Platz der Luftbruecke","2015-05-12","2015-06-17",NA,NA
+"male","caucasian","Thomas","Bartley",14,"Platz der Luftbruecke","2014-12-30","2015-02-01","Bizetstr","2015-02-14","2015-04-10",NA,NA
+"female","asian","Paetiance","Bundrant",23,"Platz der Luftbruecke","2015-06-16","2015-07-22","Bizetstr","2015-07-27","2015-10-02","2015-08-03","varicella"
+"female","native-american","Loagyn","Gardner",12,"Bizetstr","2014-11-21","2015-01-25","Platz der Luftbruecke","2015-02-01","2015-04-04",NA,NA
+"male","arabic","Aabdeen","el-Salahuddin",28,"Oranienburger Str","2015-05-20","2015-06-20","Platz der Luftbruecke","2015-07-01","2015-08-29",NA,NA
+"female","hispanic","Andrea","Urias",24,"Platz der Luftbruecke","2015-01-10","2015-02-18","Platz der Luftbruecke","2015-02-24","2015-05-14","2015-08-14","varicella"
+"female","african","Shardae","Badri",27,"Platz der Luftbruecke","2015-04-06","2015-05-26","Bizetstr","2015-06-05","2015-08-16","2015-06-09","varicella"
+"male","arabic","Saajid","el-Sultana",4,"Oranienburger Str","2015-01-12","2015-03-27","Platz der Luftbruecke","2015-04-02","2015-05-21","2015-05-22","varicella"
+"male","native-american","Shay","Mcconnaughhay",2,"Oranienburger Str","2015-08-19","2015-10-01","Oranienburger Str","2015-10-14","2016-01-22",NA,NA
+"female","asian","Melody","Jung",7,"Oranienburger Str","2014-11-27","2015-01-22","Platz der Luftbruecke","2015-01-29","2015-03-13",NA,NA
+"female","arabic","Huwaida","al-Mohammed",22,"Bizetstr","2015-05-01","2015-07-01","Bizetstr","2015-07-08","2015-08-04",NA,NA
+"female","arabic","Aatika","el-Akhtar",1,"Platz der Luftbruecke","2014-12-24","2015-03-15","Bizetstr","2015-03-20","2015-05-26","2015-06-26","varicella"
+"female","native-american","Charlotte","Muniz",10,"Platz der Luftbruecke","2015-04-05","2015-04-16","Oranienburger Str","2015-04-30","2015-06-09","2015-06-30","varicella"
+"male","native-american","Franciszek","Naylor",9,"Platz der Luftbruecke","2014-11-13","2014-11-26","Platz der Luftbruecke","2014-12-05","2015-01-01","2015-09-16","varicella"
+"female","arabic","Rif'a","el-Zaidi",31,"Bizetstr","2015-07-17","2015-08-24","Platz der Luftbruecke","2015-09-07","2015-10-30",NA,NA
+"female","african","Nadia","Price",12,"Oranienburger Str","2015-01-25","2015-02-27","Platz der Luftbruecke","2015-03-04","2015-04-28",NA,NA
+"female","african","Mahnaz","Owens",16,"Bizetstr","2015-07-10","2015-08-26","Platz der Luftbruecke","2015-09-10","2015-12-24",NA,NA
+"female","asian","Claire","Nguyen",31,"Oranienburger Str","2014-12-17","2015-03-08","Bizetstr","2015-03-15","2015-05-24",NA,NA
+"female","arabic","Asmaa","al-El-Sayed",8,"Platz der Luftbruecke","2015-05-10","2015-06-21","Platz der Luftbruecke","2015-07-02","2015-08-08",NA,NA
+"male","african","Quennel","Garvin",1,"Bizetstr","2015-01-01","2015-03-18","Buchholzerstr","2015-03-23","2015-04-23",NA,NA
+"male","hispanic","Jose","Prisco",13,"Oranienburger Str","2015-05-13","2015-07-18","Bizetstr","2015-07-24","2015-09-16","2015-06-13","varicella"
+"male","hispanic","Jonathan","Martinez-Reyes",18,"Oranienburger Str","2015-03-14","2015-06-08","Oranienburger Str","2015-06-16","2015-07-13","2015-06-17","varicella"
+"male","caucasian","Derek","Nichols",6,"Platz der Luftbruecke","2015-05-30","2015-07-28","Platz der Luftbruecke","2015-08-08","2015-09-13",NA,NA
+"female","native-american","Amanda","Pourier",1,"Platz der Luftbruecke","2015-04-07","2015-06-20","Oranienburger Str","2015-06-27","2015-08-04","2015-07-31","varicella"
+"male","asian","Nickolas","Dasan",30,"Oranienburger Str","2015-04-27","2015-06-08","Platz der Luftbruecke","2015-06-18","2015-07-26",NA,NA
+"male","native-american","Kevin","Begaye",7,"Bizetstr","2014-12-16","2015-03-16","Bizetstr","2015-03-31","2015-05-02",NA,NA
+"female","caucasian","Ashley","Gasch",20,"Platz der Luftbruecke","2015-06-10","2015-07-15","Buchholzerstr","2015-07-20","2015-08-29","2015-03-03","varicella"
+"male","asian","Kalani","Nagendra",19,"Buchholzerstr","2014-11-28","2015-01-17","Bizetstr","2015-01-24","2015-04-03",NA,NA
+"female","hispanic","Ana","Santillan",13,"Bizetstr","2015-04-28","2015-06-26","Bizetstr","2015-07-05","2015-08-27",NA,NA
+"male","caucasian","Spencer","Chandler",15,"Platz der Luftbruecke","2015-01-24","2015-04-10","Oranienburger Str","2015-04-19","2015-06-05","2015-06-14","varicella"
+"male","hispanic","Kelvin","Marquez",29,"Platz der Luftbruecke","2015-04-26","2015-05-29","Oranienburger Str","2015-06-09","2015-07-10","2015-06-08","varicella"
+"male","arabic","Zameel","al-Abdi",6,"Bizetstr","2015-01-31","2015-04-01","Bizetstr","2015-04-11","2015-06-10",NA,NA
+"female","caucasian","Allison","Touslee",16,"Bizetstr","2015-04-19","2015-05-02","Oranienburger Str","2015-05-15","2015-07-11","2015-12-23","varicella"
+"female","arabic","Zumruda","el-Ayoub",17,"Oranienburger Str","2014-11-01","2014-12-13","Platz der Luftbruecke","2014-12-21","2015-02-24",NA,NA
+"male","asian","Hayden","Klimek",34,"Platz der Luftbruecke","2015-06-01","2015-08-08","Oranienburger Str","2015-08-14","2015-10-16","2015-10-09","varicella"
+"male","hispanic","Jose","Rosales",31,"Bizetstr","2015-02-01","2015-04-06","Oranienburger Str","2015-04-13","2015-06-23",NA,NA
+"male","african","Aleczander","Adams",10,"Oranienburger Str","2015-05-19","2015-07-05","Oranienburger Str","2015-07-18","2015-08-26",NA,NA
+"male","caucasian","Collin","Gustafson",22,"Oranienburger Str","2014-11-07","2015-01-19","Platz der Luftbruecke","2015-01-24","2015-04-28",NA,NA
+"male","african","Marvin","Dorsey",13,"Oranienburger Str","2015-04-08","2015-05-05","Oranienburger Str","2015-05-17","2015-09-11",NA,NA
+"male","asian","Chan Young","Sathe",24,"Platz der Luftbruecke","2014-12-25","2015-04-03","Oranienburger Str","2015-04-10","2015-06-03","2015-06-10","varicella"
+"male","hispanic","Ignacio","Varela",14,"Bizetstr","2015-03-20","2015-04-22","Oranienburger Str","2015-04-30","2015-06-07",NA,NA
+"male","african","Christian","Jama",10,"Oranienburger Str","2014-12-17","2015-02-17","Platz der Luftbruecke","2015-02-24","2015-04-09",NA,NA
+"female","native-american","India","Kabotie",4,"Oranienburger Str","2015-06-22","2015-08-12","Bizetstr","2015-08-23","2015-10-19",NA,NA
+"male","african","Darian","Dudley",17,"Bizetstr","2015-01-13","2015-03-08","Oranienburger Str","2015-03-14","2015-04-23",NA,NA
+"male","african","Keith","Habtamu",6,"Platz der Luftbruecke","2015-04-13","2015-05-18","Bizetstr","2015-06-01","2015-06-23","2015-08-04","varicella"
+"male","asian","Raymond","Thompson",18,"Bizetstr","2015-02-24","2015-05-09","Platz der Luftbruecke","2015-05-18","2015-06-28",NA,NA
+"male","native-american","Justin","Olguin",17,"Oranienburger Str","2015-06-24","2015-07-15","Bizetstr","2015-07-28","2015-09-19",NA,NA
+"male","caucasian","Michael","Tracey",23,"Oranienburger Str","2015-01-02","2015-03-14","Oranienburger Str","2015-03-29","2015-05-05",NA,NA
+"male","native-american","Jacob","Caster",2,"Buchholzerstr","2015-05-30","2015-07-07","Platz der Luftbruecke","2015-07-16","2015-08-12","2015-02-15","varicella"
+"male","african","Reuben","Gaines",22,"Oranienburger Str","2015-02-07","2015-04-15","Oranienburger Str","2015-04-30","2015-05-12",NA,NA
+"male","hispanic","Eugene","Docherty",19,"Bizetstr","2015-06-08","2015-09-09","Oranienburger Str","2015-09-14","2015-10-29",NA,NA
+"male","hispanic","Gustavo","Nicol",9,"Oranienburger Str","2014-11-17","2014-12-24","Oranienburger Str","2015-01-04","2015-03-15",NA,NA
+"male","arabic","Abdul Azeez","el-Abbas",27,"Buchholzerstr","2015-05-16","2015-07-23","Oranienburger Str","2015-08-07","2015-09-30",NA,NA
+"male","arabic","Khairi","el-Khalifa",6,"Oranienburger Str","2015-03-16","2015-04-17","Platz der Luftbruecke","2015-05-02","2015-06-22",NA,NA
+"male","asian","Aaron","Nguyen",11,"Oranienburger Str","2015-04-20","2015-06-14","Platz der Luftbruecke","2015-06-21","2015-08-07",NA,NA
+"male","arabic","Wajdi","al-Baluch",14,"Oranienburger Str","2014-11-22","2015-01-19","Bizetstr","2015-01-27","2015-04-12",NA,NA
+"female","hispanic","Monique","Salgado",0,"Oranienburger Str","2015-09-09","2015-10-15","Platz der Luftbruecke","2015-10-30","2015-10-26",NA,NA
+"male","asian","Scott","Noland",8,"Bizetstr","2014-12-17","2015-01-09","Platz der Luftbruecke","2015-01-16","2015-04-30",NA,NA
+"male","asian","Chuong","Atkinson",12,"Platz der Luftbruecke","2015-04-25","2015-06-20","Oranienburger Str","2015-07-01","2015-08-10","2015-07-28","varicella"
+"female","african","Reanna","Boles",27,"Oranienburger Str","2015-01-02","2015-01-10","Platz der Luftbruecke","2015-01-21","2015-02-27","2015-01-06","varicella"
+"male","hispanic","Joshua","Lugo",31,"Platz der Luftbruecke","2015-09-26","2015-12-17","Oranienburger Str","2015-12-23","2016-02-16","2015-11-24","varicella"
+"female","asian","Jiny","Bochmann",22,"Platz der Luftbruecke","2014-10-29","2015-01-13","Platz der Luftbruecke","2015-01-27","2015-03-17",NA,NA
+"female","caucasian","Autumn","Wriston",16,"Oranienburger Str","2015-03-26","2015-04-22","Platz der Luftbruecke","2015-04-28","2015-06-11",NA,NA
+"male","native-american","Cornelius","Pineau",12,"Platz der Luftbruecke","2014-12-18","2015-01-28","Bizetstr","2015-02-05","2015-03-19",NA,NA
+"female","hispanic","Liberty","Mercado",30,"Bizetstr","2015-07-13","2015-08-24","Bizetstr","2015-08-30","2015-11-05",NA,NA
+"female","arabic","Jeelaan","al-Allee",15,"Oranienburger Str","2014-11-27","2015-02-17","Bizetstr","2015-02-23","2015-05-08",NA,NA
+"male","asian","Steven","Tam",28,"Oranienburger Str","2015-05-17","2015-06-19","Platz der Luftbruecke","2015-07-01","2015-08-23",NA,NA
+"male","asian","Anthony","Vang",8,"Oranienburger Str","2015-01-31","2015-02-20","Platz der Luftbruecke","2015-03-05","2015-04-30",NA,NA
+"female","asian","Nou Chee","Lam",22,"Buchholzerstr","2015-05-15","2015-08-04","Oranienburger Str","2015-08-16","2015-11-05",NA,NA
+"male","native-american","Tsinnijinnie","Burch",33,"Platz der Luftbruecke","2014-12-09","2015-02-04","Oranienburger Str","2015-02-09","2015-03-01","2015-08-29","varicella"
+"female","native-american","Kayla","Redhorse",5,"Platz der Luftbruecke","2015-05-20","2015-06-15","Oranienburger Str","2015-06-29","2015-08-31",NA,NA
+"female","african","Aleena","Tasker",1,"Oranienburger Str","2015-02-08","2015-03-15","Platz der Luftbruecke","2015-03-26","2015-04-15",NA,NA
+"female","hispanic","Kimberly","Thompson",28,"Oranienburger Str","2015-05-29","2015-07-05","Oranienburger Str","2015-07-18","2015-08-31",NA,NA
+"female","native-american","Kelly","Vigil",1,"Bizetstr","2014-11-18","2014-12-23","Oranienburger Str","2014-12-30","2015-04-12",NA,NA
+"female","caucasian","Lauren","Kazinski",35,"Platz der Luftbruecke","2015-05-27","2015-07-27","Platz der Luftbruecke","2015-08-07","2015-10-02",NA,NA
+"female","hispanic","Ian","Carrillo",22,"Platz der Luftbruecke","2015-03-09","2015-03-10","Oranienburger Str","2015-03-17","2015-03-29",NA,NA
+"male","native-american","Michael","Bogle",24,"Oranienburger Str","2015-07-16","2015-08-29","Bizetstr","2015-09-10","2015-10-23","2015-08-31","varicella"
+"female","arabic","Aatika","el-Khalil",9,"Platz der Luftbruecke","2014-12-11","2015-01-31","Oranienburger Str","2015-02-12","2015-06-04","2015-05-30","varicella"
+"female","asian","Anisa","Esquibel",9,"Oranienburger Str","2015-07-23","2015-08-25","Platz der Luftbruecke","2015-09-02","2015-09-26",NA,NA
+"female","hispanic","Judith","Martinez",0,"Oranienburger Str","2014-12-13","2015-02-18","Platz der Luftbruecke","2015-02-28","2015-05-18",NA,NA
+"male","native-american","Christopher","Chaca",15,"Oranienburger Str","2015-04-25","2015-06-11","Platz der Luftbruecke","2015-06-18","2015-06-27",NA,NA
+"female","arabic","Adeeba","el-Shaban",10,"Oranienburger Str","2014-11-06","2015-01-20","Platz der Luftbruecke","2015-01-26","2015-03-28",NA,NA
+"male","asian","Timothy","Rhee",19,"Oranienburger Str","2015-04-19","2015-06-06","Bizetstr","2015-06-11","2015-08-20",NA,NA
+"female","african","Nykeba","Johnson",22,"Oranienburger Str","2015-01-30","2015-04-09","Platz der Luftbruecke","2015-04-24","2015-06-10",NA,NA
+"male","asian","Reechik","Hirano",12,"Oranienburger Str","2015-08-14","2015-09-30","Oranienburger Str","2015-10-14","2015-12-19",NA,NA
+"male","native-american","Deven","Snowhawk",34,"Oranienburger Str","2015-02-15","2015-04-08","Oranienburger Str","2015-04-20","2015-06-13",NA,NA
+"male","african","Elijah","Odifu",25,"Oranienburger Str","2015-05-25","2015-05-13","Oranienburger Str","2015-05-23","2015-07-04",NA,NA
+"female","caucasian","Kathryn","Lewis",32,"Bizetstr","2014-11-13","2015-01-23","Oranienburger Str","2015-01-30","2015-03-14",NA,NA
+"male","hispanic","Marco","Ramirez",13,"Platz der Luftbruecke","2015-06-25","2015-09-14","Platz der Luftbruecke","2015-09-25","2015-10-12",NA,NA
+"female","caucasian","Makenzie","Kasimatis",3,"Platz der Luftbruecke","2014-12-14","2015-01-25","Platz der Luftbruecke","2015-02-06","2015-03-02",NA,NA
+"female","arabic","Khadeeja","al-Semaan",26,"Bizetstr","2015-04-16","2015-05-06","Platz der Luftbruecke","2015-05-13","2015-07-10",NA,NA
+"female","arabic","Imtinaan","el-Ayub",27,"Platz der Luftbruecke","2014-12-19","2015-02-10","Buchholzerstr","2015-02-21","2015-04-18",NA,NA
+"male","african","Rayvonne","King",10,"Bizetstr","2015-06-05","2015-06-18","Buchholzerstr","2015-06-27","2015-07-31",NA,NA
+"female","african","Jayda","Barnabas",20,"Oranienburger Str","2015-01-27","2015-03-12","Bizetstr","2015-03-22","2015-05-27",NA,NA
+"female","asian","Nhan","Lee",27,"Buchholzerstr","2015-07-08","2015-08-26","Oranienburger Str","2015-09-09","2015-10-24","2015-01-18","varicella"
+"female","hispanic","Jacquelyn","Lee",3,"Platz der Luftbruecke","2014-12-24","2014-12-26","Oranienburger Str","2015-01-09","2015-02-09",NA,NA
+"male","asian","Kualii","Foster",11,"Buchholzerstr","2015-05-29","2015-06-21","Platz der Luftbruecke","2015-07-03","2015-07-01",NA,NA
+"female","asian","Iona","Mortel",35,"Oranienburger Str","2014-11-14","2014-12-29","Oranienburger Str","2015-01-06","2015-01-12",NA,NA
+"male","arabic","Baahir","el-Nazir",23,"Oranienburger Str","2015-06-02","2015-07-24","Platz der Luftbruecke","2015-08-05","2015-09-25",NA,NA
+"female","native-american","Tabatha","Bell",11,"Oranienburger Str","2014-11-24","2015-02-06","Oranienburger Str","2015-02-17","2015-03-06",NA,NA
+"male","african","Fisayo","Frazier",21,"Bizetstr","2015-05-30","2015-07-02","Oranienburger Str","2015-07-11","2015-07-27","2015-03-23","varicella"
+"female","native-american","Mariah","Curlin",20,"Oranienburger Str","2014-12-23","2015-01-13","Platz der Luftbruecke","2015-01-28","2015-04-17",NA,NA
+"male","arabic","Siddeeqi","el-Karimi",11,"Platz der Luftbruecke","2015-04-20","2015-07-07","Bizetstr","2015-07-22","2015-08-03","2015-05-29","varicella"
+"female","hispanic","Paula","Darnell",13,"Oranienburger Str","2014-12-29","2015-01-31","Oranienburger Str","2015-02-12","2015-03-24",NA,NA
+"female","hispanic","Catherine","Morales",20,"Oranienburger Str","2015-04-27","2015-04-22","Oranienburger Str","2015-05-04","2015-07-01",NA,NA
+"male","asian","Xing","Ahsan",11,"Platz der Luftbruecke","2015-03-22","2015-05-09","Platz der Luftbruecke","2015-05-18","2015-06-11","2015-07-03","varicella"
+"male","hispanic","Garylee","Pena",7,"Platz der Luftbruecke","2015-05-16","2015-06-06","Bizetstr","2015-06-17","2015-07-24",NA,NA
+"male","african","Tre Von","Martin",28,"Platz der Luftbruecke","2014-12-10","2015-01-10","Bizetstr","2015-01-17","2015-03-28",NA,NA
+"female","hispanic","Monica","Martinez",33,"Platz der Luftbruecke","2015-07-22","2015-09-22","Platz der Luftbruecke","2015-10-07","2015-12-07",NA,NA
+"male","arabic","Baaqir","el-Srour",23,"Bizetstr","2014-11-12","2014-12-13","Platz der Luftbruecke","2014-12-24","2015-02-10",NA,NA
+"female","native-american","Skilah","King",19,"Buchholzerstr","2015-05-26","2015-07-14","Platz der Luftbruecke","2015-07-24","2015-08-20",NA,NA
+"male","asian","Jason","Potman",15,"Oranienburger Str","2015-03-01","2015-02-15","Oranienburger Str","2015-02-28","2015-03-10",NA,NA
+"male","arabic","Kanaan","al-Sani",16,"Platz der Luftbruecke","2015-05-26","2015-07-25","Oranienburger Str","2015-08-01","2015-10-05","2015-07-22","varicella"
+"female","hispanic","Marissa","Ramos",17,"Platz der Luftbruecke","2015-01-23","2015-03-30","Platz der Luftbruecke","2015-04-04","2015-05-30","2015-06-20","varicella"
+"male","hispanic","Edgar","Garcia",10,"Bizetstr","2015-05-14","2015-08-04","Platz der Luftbruecke","2015-08-09","2015-09-23",NA,NA
+"female","native-american","Dawnee","Rector",4,"Oranienburger Str","2015-01-12","2015-03-16","Platz der Luftbruecke","2015-03-22","2015-04-04",NA,NA
+"male","hispanic","Jacob","Manzanares",10,"Oranienburger Str","2015-09-26","2015-12-04","Oranienburger Str","2015-12-12","2016-01-30",NA,NA
+"male","arabic","Humaid","al-Assaf",2,"Platz der Luftbruecke","2014-12-02","2015-02-21","Platz der Luftbruecke","2015-03-04","2015-04-09",NA,NA
+"male","hispanic","Benjamin","Pulido",25,"Oranienburger Str","2015-04-15","2015-05-25","Bizetstr","2015-06-05","2015-05-27",NA,NA
+"female","asian","Kyli","Pham",11,"Bizetstr","2014-12-30","2015-02-09","Platz der Luftbruecke","2015-02-14","2015-04-27",NA,NA
+"female","native-american","Alisa","Moran",22,"Platz der Luftbruecke","2015-06-09","2015-07-04","Platz der Luftbruecke","2015-07-17","2015-11-12",NA,NA
+"male","hispanic","Anthony","Rodriguez",28,"Oranienburger Str","2014-11-20","2015-01-08","Platz der Luftbruecke","2015-01-23","2015-03-12",NA,NA
+"male","native-american","Marcus","Ward",3,"Platz der Luftbruecke","2015-07-25","2015-10-29","Platz der Luftbruecke","2015-11-13","2015-12-20",NA,NA
+"female","arabic","Tawfeeqa","el-Farid",18,"Bizetstr","2014-10-29","2014-12-04","Oranienburger Str","2014-12-16","2015-03-16",NA,NA
+"male","arabic","Faaid","al-Ghanem",11,"Platz der Luftbruecke","2015-04-23","2015-05-18","Buchholzerstr","2015-05-25","2015-07-04","2015-06-10","varicella"
+"female","asian","Rebecca","Boldbaatar",6,"Platz der Luftbruecke","2014-12-12","2015-01-10","Platz der Luftbruecke","2015-01-21","2015-02-26",NA,NA
+"female","african","Keyosha","Mccathen",33,"Bizetstr","2015-04-20","2015-06-06","Oranienburger Str","2015-06-20","2015-07-19",NA,NA
+"female","native-american","Katherine","Lizer",29,"Oranienburger Str","2014-11-04","2014-12-24","Oranienburger Str","2015-01-04","2015-02-19",NA,NA
+"female","native-american","Briana","Ross",23,"Platz der Luftbruecke","2015-07-20","2015-08-29","Platz der Luftbruecke","2015-09-10","2015-10-16",NA,NA
+"female","arabic","Hakeema","al-Rabbani",21,"Bizetstr","2015-02-17","2015-04-05","Oranienburger Str","2015-04-18","2015-06-18",NA,NA
+"female","arabic","Sameeha","al-Firman",24,"Bizetstr","2015-03-31","2015-05-19","Oranienburger Str","2015-05-25","2015-06-23",NA,NA
+"female","arabic","Sawada","el-Kazemi",6,"Oranienburger Str","2014-12-07","2014-12-18","Bizetstr","2014-12-30","2015-01-27",NA,NA
+"female","african","Lundyn","Wilson",1,"Bizetstr","2015-05-18","2015-07-03","Buchholzerstr","2015-07-14","2015-07-24","2015-10-25","varicella"
+"female","caucasian","Destiny","Johnson",34,"Bizetstr","2015-02-02","2015-03-15","Oranienburger Str","2015-03-30","2015-06-10",NA,NA
+"male","caucasian","Parker","Slatten",2,"Platz der Luftbruecke","2015-05-02","2015-06-24","Platz der Luftbruecke","2015-07-03","2015-07-23","2015-06-18","varicella"
+"female","asian","Lois","Tong",3,"Platz der Luftbruecke","2015-01-15","2015-03-09","Oranienburger Str","2015-03-24","2015-06-02","2015-06-23","varicella"
+"male","arabic","Mahuroos","al-Khan",19,"Platz der Luftbruecke","2015-05-05","2015-07-07","Platz der Luftbruecke","2015-07-14","2015-09-16","2015-08-03","varicella"
+"female","african","Rachel","Brown",33,"Bizetstr","2015-01-23","2015-03-02","Oranienburger Str","2015-03-13","2015-05-31",NA,NA
+"male","native-american","Govanni","Barricklow",17,"Bizetstr","2015-07-06","2015-08-13","Platz der Luftbruecke","2015-08-28","2015-10-07",NA,NA
+"male","native-american","Lakota","Bitsie",31,"Platz der Luftbruecke","2015-01-01","2015-01-10","Oranienburger Str","2015-01-16","2015-03-05",NA,NA
+"male","native-american","Austin","Damiana",2,"Platz der Luftbruecke","2015-04-14","2015-06-06","Platz der Luftbruecke","2015-06-18","2015-08-19","2015-06-05","varicella"
+"female","hispanic","Mariah","Moran Vega",13,"Bizetstr","2015-02-20","2015-04-26","Oranienburger Str","2015-05-04","2015-07-19",NA,NA
+"male","native-american","Jonathan","Thompson",25,"Platz der Luftbruecke","2015-05-17","2015-07-22","Bizetstr","2015-08-05","2015-08-03",NA,NA
+"male","caucasian","Cody","Pentz",1,"Platz der Luftbruecke","2015-06-25","2015-08-11","Bizetstr","2015-08-16","2015-10-11",NA,NA
+"female","caucasian","Ashley","Bitter",24,"Bizetstr","2015-04-16","2015-06-08","Bizetstr","2015-06-23","2015-08-09",NA,NA
+"female","hispanic","Lydia","Grijalva",21,"Bizetstr","2015-01-03","2015-02-05","Oranienburger Str","2015-02-12","2015-04-14",NA,NA
+"female","native-american","Sapphire","Hamlin",14,"Oranienburger Str","2015-08-10","2015-10-15","Platz der Luftbruecke","2015-10-20","2015-12-17",NA,NA
+"female","arabic","Razeena","al-Haidar",16,"Oranienburger Str","2014-11-11","2015-01-12","Platz der Luftbruecke","2015-01-17","2015-02-17",NA,NA
+"male","asian","Vamshi","Kim",33,"Buchholzerstr","2015-05-03","2015-05-14","Platz der Luftbruecke","2015-05-25","2015-08-14",NA,NA
+"female","arabic","Hanaaa","el-Mustafa",32,"Buchholzerstr","2015-01-31","2015-02-22","Oranienburger Str","2015-03-07","2015-04-21",NA,NA
+"male","african","Johnathan","Anderson",14,"Platz der Luftbruecke","2015-05-02","2015-06-15","Oranienburger Str","2015-06-28","2015-08-27","2015-09-05","varicella"
+"female","asian","Kianna","Intavong",5,"Oranienburger Str","2015-02-11","2015-04-24","Bizetstr","2015-05-04","2015-07-10",NA,NA
+"female","african","Sharmayne","Reliford",27,"Oranienburger Str","2015-06-02","2015-08-09","Platz der Luftbruecke","2015-08-17","2015-09-30",NA,NA
+"male","arabic","Nizaam","el-Younes",2,"Platz der Luftbruecke","2014-12-11","2015-03-14","Oranienburger Str","2015-03-22","2015-05-27","2015-06-27","varicella"
+"male","native-american","Morgun","Gast",2,"Oranienburger Str","2015-05-05","2015-07-16","Platz der Luftbruecke","2015-07-25","2015-10-01","2015-10-07","varicella"
+"male","african","Samuel","Richardson",26,"Platz der Luftbruecke","2014-12-17","2015-02-09","Bizetstr","2015-02-20","2015-03-25",NA,NA
+"female","african","Alexa","Kassa",20,"Platz der Luftbruecke","2015-07-30","2015-09-11","Oranienburger Str","2015-09-24","2015-10-21",NA,NA
+"female","native-american","Chykeiljah","Romero",22,"Platz der Luftbruecke","2015-05-11","2015-05-11","Oranienburger Str","2015-05-23","2015-08-03",NA,NA
+"male","african","Princeton","Bridges",30,"Oranienburger Str","2015-08-04","2015-10-02","Platz der Luftbruecke","2015-10-10","2015-12-18",NA,NA
+"female","hispanic","Arlette","Gonzalez",20,"Bizetstr","2014-11-21","2014-11-16","Oranienburger Str","2014-11-30","2014-12-28",NA,NA
+"female","arabic","Randa","el-Hamady",29,"Platz der Luftbruecke","2015-05-27","2015-07-02","Oranienburger Str","2015-07-13","2015-07-25",NA,NA
+"male","hispanic","Marcus","Sherman",29,"Bizetstr","2014-12-26","2015-02-04","Bizetstr","2015-02-14","2015-02-10",NA,NA
+"female","arabic","Kareema","al-Hameed",34,"Oranienburger Str","2015-04-16","2015-06-11","Platz der Luftbruecke","2015-06-19","2015-09-17",NA,NA
+"female","hispanic","Maryellen","Sanchez",12,"Platz der Luftbruecke","2014-11-28","2015-01-20","Oranienburger Str","2015-02-03","2015-05-01",NA,NA
+"male","arabic","Daawood","el-Yusuf",7,"Oranienburger Str","2015-04-26","2015-06-18","Bizetstr","2015-07-02","2015-08-28",NA,NA
+"male","native-american","Devin","Nickle",7,"Buchholzerstr","2015-01-24","2015-02-24","Platz der Luftbruecke","2015-03-03","2015-04-15",NA,NA
+"female","african","Larisa","Trammell",1,"Platz der Luftbruecke","2015-06-11","2015-08-15","Platz der Luftbruecke","2015-08-20","2015-10-10","2015-04-15","varicella"
+"male","african","Wilbert","Hamblen",34,"Oranienburger Str","2015-02-22","2015-05-24","Platz der Luftbruecke","2015-06-06","2015-08-03",NA,NA
+"female","caucasian","Hannah","Breeze",1,"Platz der Luftbruecke","2015-05-12","2015-06-05","Buchholzerstr","2015-06-11","2015-06-26",NA,NA
+"male","arabic","Daawood","al-Hallal",19,"Platz der Luftbruecke","2014-12-10","2015-01-19","Oranienburger Str","2015-01-24","2015-03-24",NA,NA
+"male","hispanic","Derec","Zamora",29,"Bizetstr","2015-04-06","2015-05-28","Oranienburger Str","2015-06-08","2015-06-23","2015-01-28","varicella"
+"female","hispanic","Mariana","Saucedo Terrones",11,"Platz der Luftbruecke","2015-01-23","2015-03-25","Bizetstr","2015-04-08","2015-05-16","2015-07-30","varicella"
+"male","african","Adedotun","Horton",31,"Oranienburger Str","2015-05-18","2015-07-14","Platz der Luftbruecke","2015-07-26","2015-09-25",NA,NA
+"male","caucasian","Damon","Saurber",14,"Bizetstr","2015-04-28","2015-06-05","Oranienburger Str","2015-06-16","2015-08-17",NA,NA
+"male","caucasian","Eric","Mccue",30,"Oranienburger Str","2015-09-24","2015-11-09","Oranienburger Str","2015-11-18","2016-02-22",NA,NA
+"male","caucasian","Caleb","Weller",26,"Platz der Luftbruecke","2015-03-11","2015-03-23","Platz der Luftbruecke","2015-04-05","2015-05-22","2015-06-27","varicella"
+"male","african","Yared","Lee",9,"Oranienburger Str","2015-05-08","2015-07-02","Platz der Luftbruecke","2015-07-09","2015-07-29",NA,NA
+"male","hispanic","Emmanuel","Romero",17,"Oranienburger Str","2014-12-25","2015-01-11","Oranienburger Str","2015-01-22","2015-03-23",NA,NA
+"male","hispanic","Zavier","Plata",0,"Platz der Luftbruecke","2015-04-16","2015-06-28","Oranienburger Str","2015-07-09","2015-08-09","2015-08-05","varicella"
+"female","african","Deidre","Bond",17,"Oranienburger Str","2015-02-12","2015-04-23","Oranienburger Str","2015-05-08","2015-07-10",NA,NA
+"female","african","Alandra-Niane","Stephens",31,"Platz der Luftbruecke","2015-06-26","2015-08-12","Platz der Luftbruecke","2015-08-25","2015-09-09",NA,NA
+"female","hispanic","Patricia","Ponce",22,"Platz der Luftbruecke","2015-01-26","2015-03-18","Platz der Luftbruecke","2015-03-26","2015-05-02",NA,NA
+"female","native-american","Desirae","Snyder-Jones",12,"Oranienburger Str","2015-07-22","2015-08-27","Oranienburger Str","2015-09-07","2015-10-24",NA,NA
+"male","african","Kaori","Luqman",18,"Oranienburger Str","2014-12-25","2015-02-03","Oranienburger Str","2015-02-14","2015-05-08",NA,NA
+"female","african","Dawndria","Oliver",6,"Oranienburger Str","2015-05-29","2015-07-01","Platz der Luftbruecke","2015-07-16","2015-11-01",NA,NA
+"male","caucasian","Travis","Howard",3,"Platz der Luftbruecke","2015-01-11","2015-02-16","Oranienburger Str","2015-02-26","2015-05-13","2015-07-18","varicella"
+"female","hispanic","Adrianna","Delao Ayala",31,"Oranienburger Str","2015-06-04","2015-07-15","Bizetstr","2015-07-27","2015-07-30","2015-07-04","varicella"
+"female","caucasian","Raleigh","Schoen",14,"Platz der Luftbruecke","2015-01-25","2015-03-16","Platz der Luftbruecke","2015-03-31","2015-06-13","2015-05-30","varicella"
+"female","arabic","Hasana","al-Mahmoud",34,"Platz der Luftbruecke","2015-06-24","2015-07-20","Platz der Luftbruecke","2015-07-31","2015-10-03",NA,NA
+"female","asian","Zesha","Lam",1,"Oranienburger Str","2015-01-20","2015-03-08","Bizetstr","2015-03-14","2015-04-03",NA,NA
+"female","caucasian","Andrea","Chase Jr",6,"Oranienburger Str","2015-04-01","2015-06-22","Platz der Luftbruecke","2015-07-06","2015-08-24",NA,NA
+"female","hispanic","Shayla","Espinoza",32,"Buchholzerstr","2014-12-31","2015-02-24","Platz der Luftbruecke","2015-03-01","2015-04-01",NA,NA
+"female","asian","Tiffany","Lee",3,"Platz der Luftbruecke","2015-05-26","2015-06-01","Platz der Luftbruecke","2015-06-11","2015-07-28",NA,NA
+"male","asian","Joseph","Low",20,"Oranienburger Str","2015-01-19","2015-03-12","Bizetstr","2015-03-24","2015-04-23",NA,NA
+"male","hispanic","Alan","Khat",17,"Oranienburger Str","2015-05-25","2015-06-27","Oranienburger Str","2015-07-12","2015-08-29",NA,NA
+"female","caucasian","Katherine","Sageser",4,"Oranienburger Str","2014-12-16","2014-12-28","Bizetstr","2015-01-06","2015-03-20","2015-02-23","varicella"
+"female","caucasian","Christina","Arnold",24,"Oranienburger Str","2015-07-08","2015-08-23","Platz der Luftbruecke","2015-09-06","2015-11-03",NA,NA
+"female","arabic","Adeeba","el-Yousif",10,"Platz der Luftbruecke","2015-01-01","2015-03-18","Platz der Luftbruecke","2015-04-02","2015-07-17","2015-06-26","varicella"
+"female","african","Desiree","Mack-Lynch",17,"Oranienburger Str","2015-06-06","2015-05-18","Buchholzerstr","2015-06-02","2015-06-09","2015-03-01","varicella"
+"male","african","Richard","Devine",24,"Oranienburger Str","2014-12-10","2015-03-12","Bizetstr","2015-03-18","2015-04-07","2015-08-02","varicella"
+"male","arabic","Zaamil","al-Mohammad",28,"Bizetstr","2015-08-09","2015-09-18","Bizetstr","2015-09-24","2015-10-18",NA,NA
+"male","arabic","Abdul Haadi","el-Quadri",1,"Oranienburger Str","2015-02-19","2015-03-16","Platz der Luftbruecke","2015-03-24","2015-05-10",NA,NA
+"male","asian","Raja","Pang",21,"Bizetstr","2015-04-09","2015-05-02","Platz der Luftbruecke","2015-05-10","2015-07-29","2015-03-30","varicella"
+"male","asian","Wing","Richy",18,"Oranienburger Str","2014-11-17","2014-12-27","Platz der Luftbruecke","2015-01-10","2015-03-07",NA,NA
+"male","african","Matthew","Lollis",28,"Platz der Luftbruecke","2015-04-29","2015-06-19","Platz der Luftbruecke","2015-06-25","2015-09-23","2015-06-18","varicella"
+"female","asian","Megha","Fujinami",9,"Platz der Luftbruecke","2015-06-25","2015-06-25","Oranienburger Str","2015-07-08","2015-09-21",NA,NA
+"female","arabic","Awaatif","al-Harron",24,"Oranienburger Str","2015-04-12","2015-05-17","Oranienburger Str","2015-05-28","2015-08-04","2015-09-03","varicella"
+"female","african","Jazmine","Faulkner",15,"Oranienburger Str","2015-01-18","2015-02-13","Oranienburger Str","2015-02-19","2015-04-26",NA,NA

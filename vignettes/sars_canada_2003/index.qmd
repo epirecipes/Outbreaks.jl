@@ -1,0 +1,31 @@
+---
+title: "SARS, Canada, 2003"
+---
+
+## Overview
+
+This dataset contains daily aggregated case counts of Severe Acute Respiratory Syndrome (SARS) in Canada during the 2003 outbreak. Cases are classified by transmission route: travel-related, household, healthcare, and other. The dataset comprises 110 rows and 5 columns.
+
+## Source
+
+De Vries et al. (2006), based on data from Health Canada.
+
+## Loading the data
+
+```{julia}
+using Outbreaks
+using DataFrames
+df = Outbreaks.sars_canada_2003()
+```
+
+## First few rows
+
+```{julia}
+first(df, 6)
+```
+
+## Summary statistics
+
+```{julia}
+describe(df)
+```

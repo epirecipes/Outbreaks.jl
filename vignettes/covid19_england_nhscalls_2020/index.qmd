@@ -1,0 +1,45 @@
+---
+title: "COVID-19 NHS Pathways Calls, England, 2020"
+---
+
+## Overview
+
+This dataset contains aggregated NHS Pathways call data from England during the COVID-19 pandemic in 2020. NHS Pathways is the clinical triage system used by NHS 111 and other urgent care services. The data captures calls related to potential COVID-19 symptoms, broken down by date, sex, age group, and clinical commissioning group (CCG). Note that these are aggregated call counts, not individual case records.
+
+**Source:** NHS digital dashboards; cleaned by Quentin Leclerc.
+
+## Loading the data
+
+```{julia}
+using DataFrames
+using Outbreaks
+df = Outbreaks.covid19_england_nhscalls_2020()
+size(df)
+```
+
+## First few rows
+
+```{julia}
+first(df, 6)
+```
+
+## Summary statistics
+
+```{julia}
+describe(df)
+```
+
+## Daily call volume
+
+```{julia}
+using StatsBase
+daily = combine(groupby(df, :date), :count => sum => :total_calls)
+sort!(daily, :date)
+first(daily, 10)
+```
+
+```{julia}
+println("Date range: $(minimum(daily.date)) to $(maximum(daily.date))")
+println("Total calls: $(sum(daily.total_calls))")
+println("Peak day: $(daily.date[argmax(daily.total_calls)]) with $(maximum(daily.total_calls)) calls")
+```

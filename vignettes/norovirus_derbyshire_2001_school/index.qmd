@@ -1,0 +1,34 @@
+---
+title: "Norovirus, Primary School, Derbyshire, England, 2001"
+---
+
+## Overview
+
+This dataset describes a norovirus outbreak at a primary school in Derbyshire, England, in 2001. Of 492 children in the school, 186 were absent with gastrointestinal symptoms. The data include individual-level records of illness onset, duration, and school class membership.
+
+## Source
+
+O'Neill & Marks (2005). Bayesian model selection and parameter estimation for a norovirus outbreak using a school absenteeism dataset. *Statistics in Medicine* 24(13):2011–24.
+
+## Data
+
+The dataset contains 492 rows and 5 columns:
+
+- **class**: school class of the child
+- **day_absent**: day of absence
+- **start_illness**: day of illness onset
+- **end_illness**: day illness ended
+- **day_vomiting**: day of vomiting
+
+```{julia}
+using Outbreaks
+using DataFrames
+df = Outbreaks.norovirus_derbyshire_2001_school()
+first(df, 6)
+```
+
+## Summary statistics
+
+```{julia}
+describe(df)
+```

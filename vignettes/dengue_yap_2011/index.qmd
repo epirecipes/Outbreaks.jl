@@ -1,0 +1,45 @@
+---
+title: "Dengue, Yap Main Islands, Micronesia, 2011"
+---
+
+## Overview
+
+This dataset describes a dengue fever outbreak on the Yap Main Islands, Federated States of Micronesia, in 2011. Dengue serotype 2 caused 978 cases among 7,391 residents (13% attack rate). This outbreak occurred concurrently with the Fais Island outbreak but in a larger population.
+
+**Source:** Funk S, Kucharski AJ, Camacho A, Eggo RM, Yakob L, Murray LM, Edmunds WJ (2016). Comparative analysis of dengue and Zika outbreaks reveals differences by setting and virus. *PLOS Neglected Tropical Diseases* 10(12):e0005173.
+
+## Loading the data
+
+```{julia}
+using DataFrames
+using Outbreaks
+df = Outbreaks.dengue_yap_2011()
+size(df)
+```
+
+## First few rows
+
+```{julia}
+first(df, 6)
+```
+
+## Summary statistics
+
+```{julia}
+describe(df)
+```
+
+## Epidemic curve
+
+```{julia}
+sort!(df, :onset_date)
+println("Onset range: $(minimum(df.onset_date)) to $(maximum(df.onset_date))")
+println("Total value: $(sum(df.value))")
+for row in eachrow(first(df, 30))
+    if row.value > 0
+        bar = repeat("█", min(row.value, 60))
+        println("$(row.onset_date) (wk $(row.nr)) | $bar $(row.value)")
+    end
+end
+println("... ($(nrow(df)) rows total)")
+```

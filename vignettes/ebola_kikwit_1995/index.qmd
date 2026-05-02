@@ -1,0 +1,45 @@
+---
+title: "Ebola, Kikwit, DRC, 1995"
+---
+
+## Overview
+
+This dataset describes the 1995 Ebola haemorrhagic fever outbreak in Kikwit, Democratic Republic of the Congo (then Zaire). The outbreak resulted in 316 total cases and 236 deaths (75% case fatality rate). The dataset records daily case onset counts, deaths, and reporting dates.
+
+**Source:** Khan AS, Tshioko FK, Heymann DL, Le Guenno B, Nabeth P, Kerstiëns B, et al. (1999). The reemergence of Ebola hemorrhagic fever, Democratic Republic of the Congo, 1995. *Journal of Infectious Diseases* 179(Suppl 1):S76–S86.
+
+## Loading the data
+
+```{julia}
+using DataFrames
+using Outbreaks
+df = Outbreaks.ebola_kikwit_1995()
+size(df)
+```
+
+## First few rows
+
+```{julia}
+first(df, 6)
+```
+
+## Summary statistics
+
+```{julia}
+describe(df)
+```
+
+## Epidemic curve
+
+```{julia}
+sort!(df, :date)
+println("Date range: $(minimum(df.date)) to $(maximum(df.date))")
+println("Total onset cases: $(sum(df.onset))")
+println("Total deaths: $(sum(df.death))")
+for row in eachrow(df)
+    if row.onset > 0
+        bar = repeat("█", min(row.onset, 60))
+        println("$(row.date) | $bar $(row.onset)")
+    end
+end
+```
