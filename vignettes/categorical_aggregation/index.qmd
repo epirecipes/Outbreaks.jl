@@ -1,0 +1,145 @@
+---
+title: "Categorical Aggregation with Catlab.jl"
+---
+
+## Overview
+
+This vignette demonstrates the Outbreaks.jl Catlab extension, which provides a category-theoretic framework for aggregating line list data. The key insight: aggregation decomposes into three morphisms — onset assignment, temporal binning, and decategorification (counting) — with information loss occurring *only* at the final step.
+
+The extension provides:
+
+- **`LineListACSet`**: Convert a DataFrame to a categorical representation
+- **`↓` (aggregate)**: Coarsen temporal resolution via a surjective `FinFunction`
+- **`♯` (decategorify)**: Count fibers to produce an epidemic curve
+- **`⊗` (tensor product)**: Stratify by multiple scales simultaneously
+- **`fibers`**: Inspect which cases fall in each bin (pre-decategorification)
+- **`coarsen`**: Functorial composition of binning maps
+
+## Setup
+
+```{julia}
+using Outbreaks
+using Catlab
+using DataFrames
+```
+
+## Loading data
+
+We use the Hagelloch measles dataset (188 cases, 1861) which has onset dates and school class membership — ideal for demonstrating temporal and stratified aggregation.
+
+```{julia}
+df = measles_hagelloch_1861()
+println("$(nrow(df)) cases, $(ncol(df)) columns")
+first(df, 5)
+```
+
+## Creating a LineListACSet
+
+The first step wraps the DataFrame in a categorical structure. This is the *instance* construction: a functor from the line list schema (a category) to **Set**.
+
+```{julia}
+ll = LineListACSet(df, onset=:date_of_prodrome)
+```
+
+## Temporal aggregation: the `↓` operator
+
+The downward arrow `↓` applies a binning morphism. Mathematically, this is a surjective `FinFunction` from cases to time bins. No information is lost yet — we know *which* cases map to each bin.
+
+```{julia}
+weekly = ll ↓ Week
+```
+
+The result is a `BucketedCases` — an intermediate that preserves the full fiber structure.
+
+## Decategorification: the `♯` operator
+
+The sharp operator `♯` counts the cardinality of each fiber, producing the familiar epidemic curve. This is where information is irreversibly lost: we forget *which* cases are in each bin.
+
+```{julia}
+epi_curve = ♯(weekly)
+```
+
+Or as a one-liner:
+
+```{julia}
+♯(ll, Week)
+```
+
+## Inspecting fibers
+
+Before decategorifying, we can inspect the actual cases in each bin. This is the left Kan extension — the categorical structure that counting collapses.
+
+```{julia}
+f = fibers(weekly)
+println("$(length(f)) weekly bins")
+println("\nCases in peak week (week 4):")
+f[4]
+```
+
+## Functorial coarsening: Week → Month
+
+A key advantage of the categorical approach: coarsening from weekly to monthly is *functorial composition* of `FinFunction`s. We compose `Case → Week → Month` without re-accessing raw data.
+
+```{julia}
+monthly = weekly ↓ Month
+♯(monthly)
+```
+
+Compare: going directly to monthly gives the same result (functoriality):
+
+```{julia}
+♯(ll, Month)
+```
+
+## Stratified aggregation with `⊗`
+
+The tensor product `⊗` creates a product scale for joint stratification. This corresponds to aggregation in a product category.
+
+```{julia}
+# Weekly counts stratified by school class
+strat = ♯(ll, Week ⊗ Class(:class))
+first(strat, 10)
+```
+
+Multiple categorical variables can be combined:
+
+```{julia}
+# By month and class
+♯(ll, Month ⊗ Class(:class))
+```
+
+## Pipe-friendly syntax
+
+All operations compose naturally with Julia's `|>` pipe:
+
+```{julia}
+result = ll |> aggregate_by(Week) |> ♯
+first(result, 5)
+```
+
+## The category theory perspective
+
+The pipeline `LineListACSet → ↓ → ♯` implements the mathematical decomposition:
+
+$$
+\text{EpiCurve} = |{-}| \circ \pi^{-1} \circ \beta
+$$
+
+where:
+
+- $\beta$: onset assignment (`Case → Day`, attribute morphism in the ACSet)
+- $\pi^{-1}$: fiber construction (preimage of the binning `FinFunction`)
+- $|{-}|$: cardinality (decategorification, the *only* lossy step)
+
+The `BucketedCases` intermediate lives between $\pi^{-1}$ and $|{-}|$, preserving the full categorical structure. This is why coarsening is functorial: we compose surjections *before* counting, so `Week → Month` is just another `FinFunction` in the chain.
+
+## Summary
+
+| Operation | Symbol | Categorical meaning | Information loss? |
+|-----------|--------|-------------------|:-:|
+| Wrap as ACSet | `LineListACSet` | Instance functor $I: \mathcal{C} \to \mathbf{Set}$ | No |
+| Aggregate | `↓` | Surjective `FinFunction` | No |
+| Stratify | `⊗` | Product category | No |
+| Coarsen | `↓` on `BucketedCases` | Composition of `FinFunction`s | No |
+| Count | `♯` | Cardinality $\|\text{fiber}\|$ | **Yes** |
+| Inspect fibers | `fibers` | Left Kan extension | No |
