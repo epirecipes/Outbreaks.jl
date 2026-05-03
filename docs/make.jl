@@ -8,7 +8,7 @@ makedocs(;
     remotes = nothing,
     warnonly = [:cross_references],
     format = Documenter.HTML(;
-        prettyurls = get(ENV, "CI", nothing) == "true",
+        prettyurls = true,
     ),
     pages = [
         "Home" => "index.md",
