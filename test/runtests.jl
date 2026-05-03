@@ -183,6 +183,9 @@ using DataFrames
             @test ll isa LineListACSetWrapper
             @test ll.onset_col == :date_of_prodrome
             @test nrow(ll.df) == 188
+            @test_throws ErrorException LineListACSet(df, onset=:missing_col)
+            @test_throws ErrorException LineListACSet(df, onset=:date_of_prodrome, age=:age)
+            @test_throws ErrorException LineListACSet(df, onset=:date_of_prodrome, location=:missing_col)
         end
 
         @testset "Temporal aggregation (↓)" begin
@@ -207,7 +210,7 @@ using DataFrames
         @testset "Tensor product (⊗) and stratification" begin
             df = measles_hagelloch_1861()
             ll = LineListACSet(df, onset=:date_of_prodrome)
-            ps = Week ⊗ Class(:class)
+            ps = Outbreaks.Week ⊗ Class(:class)
             @test ps isa ProductScale
             @test length(ps.scales) == 2
             strat = ♯(ll, ps)
@@ -219,12 +222,22 @@ using DataFrames
         @testset "Coarsen (functorial composition)" begin
             df = measles_hagelloch_1861()
             ll = LineListACSet(df, onset=:date_of_prodrome)
-            weekly = ll ↓ Week
-            monthly = weekly ↓ Month
+            weekly = ll ↓ Outbreaks.Week
+            monthly = weekly ↓ Outbreaks.Month
             @test monthly isa BucketedCases
             @test length(monthly.bins) < length(weekly.bins)
             monthly_counts = ♯(monthly)
             @test sum(monthly_counts.count) == 188
+
+            stratified_weekly = ll ↓ (Outbreaks.Week ⊗ Class(:class))
+            stratified_monthly = stratified_weekly ↓ Outbreaks.Month
+            stratified_counts = ♯(stratified_monthly)
+            @test :month in propertynames(stratified_counts)
+            @test :class in propertynames(stratified_counts)
+            @test sum(stratified_counts.count) == 188
+
+            yearly = monthly ↓ Outbreaks.Year
+            @test sum(♯(yearly).count) == 188
         end
 
         @testset "Fibers" begin
@@ -240,9 +253,47 @@ using DataFrames
         @testset "Pipe style (aggregate_by)" begin
             df = measles_hagelloch_1861()
             ll = LineListACSet(df, onset=:date_of_prodrome)
-            result = ll |> aggregate_by(Week) |> ♯
+            result = ll |> aggregate_by(Outbreaks.Week) |> ♯
             @test result isa DataFrame
             @test sum(result.count) == 188
+        end
+
+        @testset "Dates namespace qualification" begin
+            using Dates
+            df = measles_hagelloch_1861()
+            ll = LineListACSet(df, onset=:date_of_prodrome)
+            result = ll |> aggregate_by(Outbreaks.Week) |> ♯
+            @test result isa DataFrame
+            @test sum(result.count) == 188
+        end
+
+        @testset "Missing and empty inputs" begin
+            df = measles_hagelloch_1861()
+            df_missing = df[1:5, :]
+            df_missing.date_of_prodrome = Union{Missing, Date}[df_missing.date_of_prodrome...]
+            df_missing.date_of_prodrome[1] = missing
+            @test_logs (:warn, r"Dropped 1 rows") begin
+                ll_missing = LineListACSet(df_missing, onset=:date_of_prodrome)
+                @test nrow(ll_missing.df) == 4
+            end
+
+            df_empty = df[1:0, :]
+            ll_empty = LineListACSet(df_empty, onset=:date_of_prodrome)
+            bucketed_empty = ll_empty ↓ Outbreaks.Week
+            counts_empty = ♯(bucketed_empty)
+            @test nrow(counts_empty) == 0
+        end
+
+        @testset "Mixed strata and EpiCurveACSet" begin
+            df = measles_hagelloch_1861()[1:6, :]
+            df.stratum = Any["a", missing, 2, "b", 1, missing]
+            ll = LineListACSet(df, onset=:date_of_prodrome)
+            stratified = ♯(ll, Outbreaks.Week ⊗ Stratum(:stratum))
+            @test sum(stratified.count) == nrow(df)
+
+            curve = DataFrame(week=[Date(2020, 1, 1), Date(2020, 1, 8)], cases=[10, 15])
+            ec = EpiCurveACSet(curve, time=:week, count=:cases)
+            @test ec !== nothing
         end
     end
 

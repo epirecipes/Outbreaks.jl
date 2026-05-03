@@ -46,7 +46,7 @@ ll = LineListACSet(df, onset=:date_of_prodrome)
 The downward arrow `↓` applies a binning morphism. Mathematically, this is a surjective `FinFunction` from cases to time bins. No information is lost yet — we know *which* cases map to each bin.
 
 ```{julia}
-weekly = ll ↓ Week
+weekly = ll ↓ Outbreaks.Week
 ```
 
 The result is a `BucketedCases` — an intermediate that preserves the full fiber structure.
@@ -62,7 +62,7 @@ epi_curve = ♯(weekly)
 Or as a one-liner:
 
 ```{julia}
-♯(ll, Week)
+♯(ll, Outbreaks.Week)
 ```
 
 ## Inspecting fibers
@@ -81,14 +81,14 @@ f[4]
 A key advantage of the categorical approach: coarsening from weekly to monthly is *functorial composition* of `FinFunction`s. We compose `Case → Week → Month` without re-accessing raw data.
 
 ```{julia}
-monthly = weekly ↓ Month
+monthly = weekly ↓ Outbreaks.Month
 ♯(monthly)
 ```
 
 Compare: going directly to monthly gives the same result (functoriality):
 
 ```{julia}
-♯(ll, Month)
+♯(ll, Outbreaks.Month)
 ```
 
 ## Stratified aggregation with `⊗`
@@ -97,7 +97,7 @@ The tensor product `⊗` creates a product scale for joint stratification. This 
 
 ```{julia}
 # Weekly counts stratified by school class
-strat = ♯(ll, Week ⊗ Class(:class))
+strat = ♯(ll, Outbreaks.Week ⊗ Class(:class))
 first(strat, 10)
 ```
 
@@ -105,7 +105,7 @@ Multiple categorical variables can be combined:
 
 ```{julia}
 # By month and class
-♯(ll, Month ⊗ Class(:class))
+♯(ll, Outbreaks.Month ⊗ Class(:class))
 ```
 
 ## Pipe-friendly syntax
@@ -113,7 +113,7 @@ Multiple categorical variables can be combined:
 All operations compose naturally with Julia's `|>` pipe:
 
 ```{julia}
-result = ll |> aggregate_by(Week) |> ♯
+result = ll |> aggregate_by(Outbreaks.Week) |> ♯
 first(result, 5)
 ```
 

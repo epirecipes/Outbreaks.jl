@@ -16,7 +16,7 @@ return a `DataFrame`; complex multi-table datasets return a `NamedTuple` of
 
 ```julia
 using Pkg
-Pkg.add(url="https://github.com/sdwfrost/Outbreaks.jl")
+Pkg.add(url="https://github.com/epirecipes/Outbreaks.jl")
 ```
 
 ## Quick Start

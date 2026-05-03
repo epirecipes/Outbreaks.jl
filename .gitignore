@@ -14,6 +14,7 @@ vignettes/**/index.html
 vignettes/**/index.pdf
 vignettes/**/index.md
 vignettes/**/*_files/
+vignettes/**/*.quarto_ipynb
 vignettes/.quarto/
 
 # OS

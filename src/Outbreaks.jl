@@ -30,6 +30,7 @@ using Dates
 
 function _load(filename::String)::DataFrame
     path = joinpath(@__DIR__, "..", "data", filename)
+    isfile(path) || error("Dataset file not found: $filename")
     return DataFrame(CSV.File(path))
 end
 
@@ -650,8 +651,8 @@ Preserves fiber structure: for each bucket, knows *which* cases
 are in it (not just how many). The `bin_map` field holds the
 `FinFunction` from cases to bins once the Catlab extension is loaded.
 """
-struct BucketedCases
-    bin_map::Any             # FinFunction (Case → Bin) when Catlab loaded
+struct BucketedCases{F}
+    bin_map::F               # FinFunction (Case → Bin) when Catlab loaded
     bins::Vector             # bin labels
     cases::DataFrame         # original case-level data
     scales::Vector{Union{TemporalScale, CategoricalScale}}
@@ -662,8 +663,8 @@ end
 
 Wraps a Catlab ACSet with metadata for ergonomic categorical operations.
 """
-struct LineListACSetWrapper
-    acset::Any               # ACSet instance
+struct LineListACSetWrapper{A}
+    acset::A                 # ACSet instance when Catlab loaded
     df::DataFrame            # original DataFrame
     onset_col::Symbol        # onset date column
     strata_cols::Vector{Symbol}
@@ -817,7 +818,9 @@ The sharp (♯) evokes "counting measure" / discretization.
 
 Tensor product of scales for stratified aggregation.
 The result lives in a product category.
-Requires `Catlab.jl` (uses Catlab's monoidal product `⊗`).
+Requires `Catlab.jl` and extends Catlab's monoidal product `⊗` for
+Outbreaks scale types. If `Dates` is also loaded, qualify temporal scales
+as `Outbreaks.Week`, `Outbreaks.Month`, etc. to avoid name ambiguity.
 
 # Example
 ```julia

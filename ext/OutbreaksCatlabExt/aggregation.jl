@@ -12,6 +12,15 @@
 using Catlab: FinSet, FinFunction, preimage
 using Dates: Date
 
+_sort_token(x::Date) = (0, Dates.value(x))
+_sort_token(x::Real) = (1, Float64(x))
+_sort_token(x::AbstractString) = (2, String(x))
+_sort_token(::Missing) = (3, "")
+_sort_token(x) = (4, string(x))
+_bin_sort_key(x::Tuple) = tuple((_sort_token(v) for v in x)...)
+_bin_sort_key(x) = _sort_token(x)
+_sorted_unique_bins(values) = sort(collect(unique(values)); by=_bin_sort_key)
+
 """
     Outbreaks.aggregate(ll::LineListACSetWrapper, scale::TemporalScale; by=nothing)
 
@@ -44,7 +53,7 @@ function Outbreaks.aggregate(ll::LineListACSetWrapper, scale::TemporalScale;
     if isnothing(by)
         # Pure temporal aggregation
         binned = scale.bin_func.(dates)
-        unique_bins = sort(unique(binned))
+        unique_bins = _sorted_unique_bins(binned)
         bin_index = Dict(b => i for (i, b) in enumerate(unique_bins))
         bin_vec = [bin_index[b] for b in binned]
 
@@ -58,7 +67,7 @@ function Outbreaks.aggregate(ll::LineListACSetWrapper, scale::TemporalScale;
         strata = ll.df[!, by]
         # Product bins: (time_bin, stratum)
         product_bins = collect(zip(binned_time, strata))
-        unique_bins = sort(unique(product_bins))
+        unique_bins = _sorted_unique_bins(product_bins)
         bin_index = Dict(b => i for (i, b) in enumerate(unique_bins))
         bin_vec = [bin_index[b] for b in product_bins]
 
@@ -83,7 +92,7 @@ function Outbreaks.aggregate(ll::LineListACSetWrapper, ps::ProductScale)
     end
 
     product_bins = collect(zip(components...))
-    unique_bins = sort(unique(product_bins))
+    unique_bins = _sorted_unique_bins(product_bins)
     bin_index = Dict(b => i for (i, b) in enumerate(unique_bins))
     bin_vec = [bin_index[b] for b in product_bins]
 
@@ -179,26 +188,31 @@ monthly = coarsen(weekly, Month)  # functorial: Case → Week → Month
 """
 function Outbreaks.coarsen(b::BucketedCases, new_scale::TemporalScale)
     # The existing bins must be temporal (dates) for coarsening to make sense
-    old_scale = first(s for s in b.scales if s isa TemporalScale)
-    old_scale !== nothing || error("Cannot coarsen: no temporal scale in current bucketing")
+    t_idx = findfirst(s -> s isa TemporalScale, b.scales)
+    isnothing(t_idx) && error("Cannot coarsen: no temporal scale in current bucketing")
 
     # Apply new binning to existing bin labels
-    old_bins = if length(b.scales) == 1
+    old_temporal_bins = if length(b.scales) == 1
         b.bins
     else
         # Extract temporal component from product bins
-        t_idx = findfirst(s -> s isa TemporalScale, b.scales)
         [bin[t_idx] for bin in b.bins]
     end
 
-    new_binned = new_scale.bin_func.(old_bins)
-    unique_new_bins = sort(unique(new_binned))
+    new_temporal_bins = new_scale.bin_func.(old_temporal_bins)
+    new_binned = if length(b.scales) == 1
+        new_temporal_bins
+    else
+        [ntuple(j -> j == t_idx ? new_temporal_bins[i] : b.bins[i][j], length(b.scales))
+         for i in eachindex(b.bins)]
+    end
+    unique_new_bins = _sorted_unique_bins(new_binned)
     new_bin_index = Dict(nb => i for (i, nb) in enumerate(unique_new_bins))
 
     # Compose: old_bin_map composed with coarsening map
     # coarsen_map: OldBins → NewBins
-    coarsen_vec = [new_bin_index[new_binned[i]] for i in 1:length(old_bins)]
-    coarsen_map = FinFunction(coarsen_vec, FinSet(length(old_bins)), FinSet(length(unique_new_bins)))
+    coarsen_vec = [new_bin_index[new_binned[i]] for i in 1:length(new_binned)]
+    coarsen_map = FinFunction(coarsen_vec, FinSet(length(new_binned)), FinSet(length(unique_new_bins)))
 
     # Compose FinFunctions: Case → OldBin → NewBin
     old_vec = collect(b.bin_map)
@@ -207,7 +221,6 @@ function Outbreaks.coarsen(b::BucketedCases, new_scale::TemporalScale)
 
     # Update scales
     new_scales = copy(b.scales)
-    t_idx = findfirst(s -> s isa TemporalScale, new_scales)
     new_scales[t_idx] = new_scale
 
     return BucketedCases(composed_map, unique_new_bins, b.cases, new_scales)

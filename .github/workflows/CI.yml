@@ -20,7 +20,7 @@ jobs:
       fail-fast: false
       matrix:
         version:
-          - '1.6'
+          - '1.10'
           - '1'
           - 'nightly'
         os:
@@ -31,9 +31,9 @@ jobs:
           - x64
         exclude:
           - os: macOS-latest
-            version: '1.6'
+            version: '1.10'
           - os: windows-latest
-            version: '1.6'
+            version: '1.10'
           - os: macOS-latest
             version: 'nightly'
           - os: windows-latest
@@ -67,6 +67,7 @@ jobs:
       - uses: julia-actions/setup-julia@v2
         with:
           version: '1'
+      - uses: quarto-dev/quarto-actions/setup@v2
       - uses: julia-actions/cache@v2
       - name: Install dependencies
         run: |
@@ -74,6 +75,14 @@ jobs:
             using Pkg
             Pkg.develop(PackageSpec(path=pwd()))
             Pkg.instantiate()'
+          julia --project=vignettes -e '
+            using Pkg
+            Pkg.develop(PackageSpec(path=pwd()))
+            Pkg.instantiate()'
+      - name: Render vignettes
+        env:
+          JULIA_PROJECT: vignettes
+        run: quarto render vignettes --to html
       - name: Build and deploy
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

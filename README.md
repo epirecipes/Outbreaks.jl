@@ -1,7 +1,7 @@
 # Outbreaks.jl
 
-[![CI](https://github.com/sdwfrost/Outbreaks.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/sdwfrost/Outbreaks.jl/actions/workflows/CI.yml)
-[![Documentation](https://img.shields.io/badge/docs-dev-blue.svg)](https://sdwfrost.github.io/Outbreaks.jl/dev)
+[![CI](https://github.com/epirecipes/Outbreaks.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/epirecipes/Outbreaks.jl/actions/workflows/CI.yml)
+[![Documentation](https://img.shields.io/badge/docs-dev-blue.svg)](https://epirecipes.github.io/Outbreaks.jl/dev/)
 
 Curated disease outbreak datasets for Julia — a port of the R [outbreaks](https://CRAN.R-project.org/package=outbreaks) package.
 
@@ -9,7 +9,7 @@ Curated disease outbreak datasets for Julia — a port of the R [outbreaks](http
 
 ```julia
 using Pkg
-Pkg.add("Outbreaks")
+Pkg.add(url="https://github.com/epirecipes/Outbreaks.jl")
 ```
 
 ## Quick Start
@@ -69,7 +69,22 @@ first(data.contacts, 5)
 
 ## Documentation
 
-Full API documentation with column descriptions, sources, and examples is available at the [documentation site](https://sdwfrost.github.io/Outbreaks.jl/dev).
+Full API documentation with column descriptions, sources, and examples is available at the [documentation site](https://epirecipes.github.io/Outbreaks.jl/dev/).
+
+## Categorical Aggregation
+
+Outbreaks.jl includes an optional [Catlab.jl](https://algebraicjulia.github.io/Catlab.jl/) extension for category-theoretic aggregation of line lists. Load Catlab alongside Outbreaks to activate it:
+
+```julia
+using Outbreaks, Catlab
+
+ll = LineListACSet(measles_hagelloch_1861(), onset=:date_of_prodrome)
+weekly = ll ↓ Outbreaks.Week
+counts = ♯(weekly)
+stratified = ♯(ll, Outbreaks.Week ⊗ Class(:class))
+```
+
+Use `Outbreaks.Week`, `Outbreaks.Month`, and related qualified names when `Dates` is also loaded.
 
 ## Relationship to R outbreaks package
 

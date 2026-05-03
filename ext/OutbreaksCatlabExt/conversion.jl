@@ -33,9 +33,21 @@ function Outbreaks.LineListACSet(df::DataFrame; onset::Symbol,
                                  outcome::Union{Symbol,Nothing}=nothing)
     # Validate columns exist
     onset ∈ propertynames(df) || error("Column :$onset not found in DataFrame")
+    for col in (location, age, outcome)
+        isnothing(col) || col ∈ propertynames(df) || error("Column :$col not found in DataFrame")
+    end
+    partial_optional = any(!isnothing, (location, age, outcome)) &&
+        !(isnothing(age) && isnothing(outcome)) &&
+        any(isnothing, (location, age, outcome))
+    partial_optional && error(
+        "LineListACSet currently supports optional attributes as either " *
+        "`location` only or all of `location`, `age`, and `outcome`."
+    )
 
     # Filter to rows with non-missing onset
     valid = .!ismissing.(df[!, onset])
+    dropped = count(!, valid)
+    dropped == 0 || @warn "Dropped $dropped rows with missing onset dates" onset
     df_clean = df[valid, :]
     n = nrow(df_clean)
 
