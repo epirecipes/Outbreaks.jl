@@ -165,4 +165,85 @@ using DataFrames
         end
     end
 
+    @testset "Catlab Extension" begin
+        using Catlab
+
+        @testset "Types available from main module" begin
+            @test Day isa TemporalScale
+            @test Week isa TemporalScale
+            @test Month isa TemporalScale
+            @test Year isa TemporalScale
+            @test Class(:x) isa CategoricalScale
+            @test District(:y) isa CategoricalScale
+        end
+
+        @testset "LineListACSet construction" begin
+            df = measles_hagelloch_1861()
+            ll = LineListACSet(df, onset=:date_of_prodrome)
+            @test ll isa LineListACSetWrapper
+            @test ll.onset_col == :date_of_prodrome
+            @test nrow(ll.df) == 188
+        end
+
+        @testset "Temporal aggregation (↓)" begin
+            df = measles_hagelloch_1861()
+            ll = LineListACSet(df, onset=:date_of_prodrome)
+            bucketed = ll ↓ Week
+            @test bucketed isa BucketedCases
+            @test length(bucketed.bins) == 8
+            @test nrow(bucketed.cases) == 188
+        end
+
+        @testset "Decategorification (♯)" begin
+            df = measles_hagelloch_1861()
+            ll = LineListACSet(df, onset=:date_of_prodrome)
+            counts = ♯(ll, Week)
+            @test counts isa DataFrame
+            @test sum(counts.count) == 188
+            @test :week in propertynames(counts)
+            @test :count in propertynames(counts)
+        end
+
+        @testset "Tensor product (⊗) and stratification" begin
+            df = measles_hagelloch_1861()
+            ll = LineListACSet(df, onset=:date_of_prodrome)
+            ps = Week ⊗ Class(:class)
+            @test ps isa ProductScale
+            @test length(ps.scales) == 2
+            strat = ♯(ll, ps)
+            @test :week in propertynames(strat)
+            @test :class in propertynames(strat)
+            @test sum(strat.count) == 188
+        end
+
+        @testset "Coarsen (functorial composition)" begin
+            df = measles_hagelloch_1861()
+            ll = LineListACSet(df, onset=:date_of_prodrome)
+            weekly = ll ↓ Week
+            monthly = weekly ↓ Month
+            @test monthly isa BucketedCases
+            @test length(monthly.bins) < length(weekly.bins)
+            monthly_counts = ♯(monthly)
+            @test sum(monthly_counts.count) == 188
+        end
+
+        @testset "Fibers" begin
+            df = measles_hagelloch_1861()
+            ll = LineListACSet(df, onset=:date_of_prodrome)
+            bucketed = ll ↓ Week
+            f = fibers(bucketed)
+            @test length(f) == length(bucketed.bins)
+            @test sum(nrow.(f)) == 188
+            @test all(fi -> fi isa DataFrame, f)
+        end
+
+        @testset "Pipe style (aggregate_by)" begin
+            df = measles_hagelloch_1861()
+            ll = LineListACSet(df, onset=:date_of_prodrome)
+            result = ll |> aggregate_by(Week) |> ♯
+            @test result isa DataFrame
+            @test sum(result.count) == 188
+        end
+    end
+
 end
