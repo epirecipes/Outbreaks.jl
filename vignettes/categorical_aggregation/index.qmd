@@ -1,10 +1,10 @@
 ---
-title: "Categorical Aggregation with Catlab.jl"
+title: "Categorical Aggregation with CategoricalOutbreaks.jl"
 ---
 
 ## Overview
 
-This vignette demonstrates the Outbreaks.jl Catlab extension, which provides a category-theoretic framework for aggregating line list data. The key insight: aggregation decomposes into three morphisms — onset assignment, temporal binning, and decategorification (counting) — with information loss occurring *only* at the final step.
+This vignette demonstrates CategoricalOutbreaks.jl, which provides a category-theoretic framework for aggregating line list data loaded from Outbreaks.jl. The key insight: aggregation decomposes into three morphisms — onset assignment, temporal binning, and decategorification (counting) — with information loss occurring *only* at the final step.
 
 The extension provides:
 
@@ -19,7 +19,7 @@ The extension provides:
 
 ```{julia}
 using Outbreaks
-using Catlab
+using CategoricalOutbreaks
 using DataFrames
 ```
 
@@ -46,7 +46,7 @@ ll = LineListACSet(df, onset=:date_of_prodrome)
 The downward arrow `↓` applies a binning morphism. Mathematically, this is a surjective `FinFunction` from cases to time bins. No information is lost yet — we know *which* cases map to each bin.
 
 ```{julia}
-weekly = ll ↓ Outbreaks.Week
+weekly = ll ↓ Week
 ```
 
 The result is a `BucketedCases` — an intermediate that preserves the full fiber structure.
@@ -62,7 +62,7 @@ epi_curve = ♯(weekly)
 Or as a one-liner:
 
 ```{julia}
-♯(ll, Outbreaks.Week)
+♯(ll, Week)
 ```
 
 ## Inspecting fibers
@@ -81,14 +81,14 @@ f[4]
 A key advantage of the categorical approach: coarsening from weekly to monthly is *functorial composition* of `FinFunction`s. We compose `Case → Week → Month` without re-accessing raw data.
 
 ```{julia}
-monthly = weekly ↓ Outbreaks.Month
+monthly = weekly ↓ Month
 ♯(monthly)
 ```
 
 Compare: going directly to monthly gives the same result (functoriality):
 
 ```{julia}
-♯(ll, Outbreaks.Month)
+♯(ll, Month)
 ```
 
 ## Stratified aggregation with `⊗`
@@ -97,7 +97,7 @@ The tensor product `⊗` creates a product scale for joint stratification. This 
 
 ```{julia}
 # Weekly counts stratified by school class
-strat = ♯(ll, Outbreaks.Week ⊗ Class(:class))
+strat = ♯(ll, Week ⊗ Class(:class))
 first(strat, 10)
 ```
 
@@ -105,7 +105,7 @@ Multiple categorical variables can be combined:
 
 ```{julia}
 # By month and class
-♯(ll, Outbreaks.Month ⊗ Class(:class))
+♯(ll, Month ⊗ Class(:class))
 ```
 
 ## Pipe-friendly syntax
@@ -113,7 +113,7 @@ Multiple categorical variables can be combined:
 All operations compose naturally with Julia's `|>` pipe:
 
 ```{julia}
-result = ll |> aggregate_by(Outbreaks.Week) |> ♯
+result = ll |> aggregate_by(Week) |> ♯
 first(result, 5)
 ```
 

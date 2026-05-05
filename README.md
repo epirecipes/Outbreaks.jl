@@ -73,18 +73,19 @@ Full API documentation with column descriptions, sources, and examples is availa
 
 ## Categorical Aggregation
 
-Outbreaks.jl includes an optional [Catlab.jl](https://algebraicjulia.github.io/Catlab.jl/) extension for category-theoretic aggregation of line lists. Load Catlab alongside Outbreaks to activate it:
+Category-theoretic aggregation of line lists now lives in
+[`CategoricalOutbreaks.jl`](https://github.com/epirecipes/CategoricalOutbreaks.jl).
+Load it alongside Outbreaks to use the Catlab-based ACSet and aggregation API:
 
 ```julia
-using Outbreaks, Catlab
+using Outbreaks
+using CategoricalOutbreaks
 
 ll = LineListACSet(measles_hagelloch_1861(), onset=:date_of_prodrome)
-weekly = ll ↓ Outbreaks.Week
+weekly = ll ↓ Week
 counts = ♯(weekly)
-stratified = ♯(ll, Outbreaks.Week ⊗ Class(:class))
+stratified = ♯(ll, Week ⊗ Class(:class))
 ```
-
-Use `Outbreaks.Week`, `Outbreaks.Month`, and related qualified names when `Dates` is also loaded.
 
 ## Relationship to R outbreaks package
 

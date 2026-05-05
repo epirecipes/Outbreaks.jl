@@ -1,40 +1,20 @@
 # Categorical Aggregation
 
-Outbreaks.jl includes an optional Catlab.jl extension for representing line
-lists categorically and aggregating them across temporal and categorical scales.
-Load Catlab alongside Outbreaks to activate these methods:
+Category-theoretic aggregation of line lists now lives in
+[`CategoricalOutbreaks.jl`](https://github.com/epirecipes/CategoricalOutbreaks.jl).
+Outbreaks.jl provides the curated datasets; CategoricalOutbreaks.jl provides the
+Catlab schemas, ACSet wrappers, fiber-preserving aggregation, and Unicode
+operators.
 
 ```julia
-using Outbreaks, Catlab
+using Outbreaks
+using CategoricalOutbreaks
 
 ll = LineListACSet(measles_hagelloch_1861(), onset = :date_of_prodrome)
-weekly = ll ↓ Outbreaks.Week
+weekly = ll ↓ Week
 counts = ♯(weekly)
-stratified = ♯(ll, Outbreaks.Week ⊗ Class(:class))
-monthly = weekly ↓ Outbreaks.Month
+stratified = ♯(ll, Week ⊗ Class(:class))
+monthly = weekly ↓ Month
 ```
 
-!!! note
-    `Day`, `Week`, `Month`, and `Year` are temporal scales exported by
-    Outbreaks.jl. If `Dates` is also loaded, qualify them as `Outbreaks.Week`,
-    `Outbreaks.Month`, and so on to avoid ambiguity with `Dates.Week`.
-
-```@docs
-TemporalScale
-CategoricalScale
-ProductScale
-BucketedCases
-LineListACSetWrapper
-LineListACSet
-EpiCurveACSet
-aggregate
-decategorify
-fibers
-coarsen
-aggregate_by
-Class
-District
-Stratum
-Outbreaks.:↓
-Outbreaks.♯
-```
+See the CategoricalOutbreaks.jl package for its API reference and examples.
